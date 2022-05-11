@@ -1,4 +1,4 @@
-<header id="header" class="header">
+<header id="header" class="header header-index">
 	<div class="header__container _container">
 
 		<div class="header__row d-flex">
