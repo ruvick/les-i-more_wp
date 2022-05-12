@@ -16,22 +16,35 @@ get_header(); ?>
     <div class="map" id="map"></div>
   </div>
   <div class="WrapperPage__sidebar">
+    <?
+        function get_table_icon($cat) {
+          if ($cat === "Образование") return "infra_school";
+          if ($cat === "Торговые центры") return "infra_shop";
+          if ($cat === "Фитнес") return "infra_sport";
+        }
+
+      global $wpdb;
+      $cats = $wpdb->get_results("SELECT `cat`, count(*) as `count` FROM `wp_infra` GROUP BY `cat`");
+      $objects = $wpdb->get_results("SELECT * FROM `wp_infra`");
+
+    ?>
 
     <div class="spollers-block WrapperPage__sidebar-spoller" data-spollers data-one-spoller>
       <div class="spollers-block__item">
         <div class="WrapperPage__sidebar-spoller-title spollers-block__title" data-spoller>Крупные объекты</div>
         <div class="WrapperPage__sidebar-spoller-body spollers-block__body">
           <ul class="WrapperPage__sidebar-spoller-body-list">
-            <li class="WrapperPage__sidebar-spoller-body-list-item"><a href="#">Детские сады<span>4</span></a>
-            </li>
-            <li class="WrapperPage__sidebar-spoller-body-list-item"><a href="#">Школы<span>3</span></a>
-            </li>
-            <li class="WrapperPage__sidebar-spoller-body-list-item"><a href="#">Супермаркеты<span>8</span></a>
-            </li>
-            <li class="WrapperPage__sidebar-spoller-body-list-item"><a href="#">Медицина<span>3</span></a>
-            </li>
-            <li class="WrapperPage__sidebar-spoller-body-list-item"><a href="#">Спорт<span>5</span></a>
-            </li>
+            
+            <?
+              foreach ($cats as $onecat) {
+            ?>
+                <li class="WrapperPage__sidebar-spoller-body-list-item">
+                  <a href="#"><? echo $onecat->cat; ?><span><? echo $onecat->count; ?></span></a>
+                </li>
+            <?
+              }
+            ?>
+
           </ul>
           <div class="WrapperPage__sidebar-spoller-body-btn">
             <a href="#" class="WrapperPage__sidebar-spoller-body-btn-link btn">Показать</a>
@@ -43,115 +56,23 @@ get_header(); ?>
 
     <div class="WrapperPage__sidebar-infoBlock">
 
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon WrapperPage__sidebar-infoBlock-item-icon_01"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
+      <?
+        foreach ($objects as $obj) {
+      ?>
+        <div class="WrapperPage__sidebar-infoBlock-item d-flex">
+          <div class="WrapperPage__sidebar-infoBlock-item-icon WrapperPage__sidebar-infoBlock-item-icon_01 <?echo get_table_icon($obj->cat);?>"></div>
+          <div class="WrapperPage__sidebar-infoBlock-item-descp">
+            <div class="WrapperPage__sidebar-infoBlock-item-descp-mame"><? echo $obj->name; ?></div>
+            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
+              <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time"><? echo $obj->time; ?></div>
+              <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance"><? echo $obj->rasst; ?></div>
+            </div>
           </div>
-        </div>
-      </div>
+        </div> 
+      <?
+        }
+      ?>
 
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="WrapperPage__sidebar-infoBlock-item d-flex">
-        <div class="WrapperPage__sidebar-infoBlock-item-icon"></div>
-        <div class="WrapperPage__sidebar-infoBlock-item-descp">
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-mame">Торговый Центр «Европа»</div>
-          <div class="WrapperPage__sidebar-infoBlock-item-descp-charect d-flex">
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-time">13 мин</div>
-            <div class="WrapperPage__sidebar-infoBlock-item-descp-charect-distance">3 км</div>
-          </div>
-        </div>
-      </div>
 
     </div>
 

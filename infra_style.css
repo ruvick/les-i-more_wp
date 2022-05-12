@@ -1,0 +1,17 @@
+.infra_school::before {
+    content: "";
+    background-position: center;
+    background-image: url(img/ifra_icon/school.svg);
+}
+
+.infra_shop::before {
+    content: "";
+    background-position: center;
+    background-image: url(img/ifra_icon/shop.svg);
+}
+
+.infra_sport::before {
+    content: "";
+    background-position: center;
+    background-image: url(img/ifra_icon/sport.svg);
+}

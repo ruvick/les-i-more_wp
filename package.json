@@ -9,6 +9,8 @@
     "send_r": "scp -C *.php *.png *.css asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "send_ms": "scp -C *.css asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "send_one": "scp -C page-pageresult.php asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
+    "send_one_m": "scp -C page-infrastructure.php asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
+    "send_one_ms": "scp -C infra_style.css asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "send_head": "scp -C header.php asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "send_cat": "scp -C category.php asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "send_singl": "scp -C single.php asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",

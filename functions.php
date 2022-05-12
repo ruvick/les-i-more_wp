@@ -153,6 +153,7 @@ function my_assets()
 	// wp_enqueue_style("style-fancybox", get_template_directory_uri() . "/css/fancybox.css", array(), $style_version, 'all'); //fancybox (стили)
 
 	wp_enqueue_style("main-style", get_stylesheet_uri(), array(), $style_version, 'all'); // Подключение основных стилей в самом конце
+	wp_enqueue_style("infra_style", get_template_directory_uri() . "/infra_style.css", array(), $style_version, 'all'); //Стили инфраструктуры
 
 	// Подключение скриптов
 
@@ -167,6 +168,7 @@ function my_assets()
 	// wp_enqueue_script('html2pdf', get_template_directory_uri() . '/js/html2pdf.bundle.js', array(), $scrypt_version, true); //Create PDF-page 
 
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
+	wp_enqueue_script('infra', get_template_directory_uri() . '/js/infrostructura_map.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
 
 	wp_localize_script('main', 'allAjax', array(
 		'ajaxurl' => admin_url('admin-ajax.php'),
