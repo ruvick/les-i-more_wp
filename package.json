@@ -28,6 +28,7 @@
     "send_images": "scp -r images *.svg asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "mk_part_js": "ssh asmi046@asmi046.myjino.ru \"mkdir -p domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/js\"",
     "send_js": "scp -r js asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
+    "send_js_one": "scp -r js/infrostructura_map.js asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/js/",
     "mk_part_css": "ssh asmi046@asmi046.myjino.ru \"mkdir -p domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/css\"",
     "send_css": "scp -C -r css asmi046@asmi046.myjino.ru:domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/",
     "mk_part_fonts": "ssh asmi046@asmi046.myjino.ru \"mkdir -p domains/les-i-more.asmi-studio.ru/wp-content/themes/les-i-more/fonts\"",

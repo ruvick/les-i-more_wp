@@ -1,7 +1,29 @@
 
+document.addEventListener('DOMContentLoaded', () => {
+  let allSelector = document.querySelectorAll(".infra_selector");
+  for (let i = 0; i<allSelector.length; i++) {
+    allSelector[i].addEventListener("click", (e) => {
+      e.preventDefault();
+      let element = allSelector[i].dataset.catname
+      let elem_position = selectElement.indexOf(element)  
+      
+      if (elem_position > 0) {
+        selectElement.splice(elem_position,1)
+        allSelector[i].classList.remove("_selected")
+      } else {
+        selectElement.push(element)
+        allSelector[i].classList.add("_selected")
+      }
+      
+      if (myMap != null) 
+        filter_object();
+    }) 
+  }
+});
+
+  var myMap = null; 
+
   let selectElement = []
-
-
 
   function get_map_pin(cat) {
     if (cat == "Образование") return "pin_school.svg";
@@ -9,7 +31,7 @@
     if (cat == "Фитнес") return "pin_sport.svg";
   }
 
-  function filter_object(myMap) {
+  function filter_object() {
       if (!mapPin) return;
       var myGeoObjects = [];
     
@@ -49,20 +71,22 @@
         clusterIconColor: "#879026"
       });
       
-      clusterer.add(myGeoObjects);
-      myMap.geoObjects.add( clusterer );
+      clusterer.add(myGeoObjects)
+      myMap.geoObjects.removeAll()
+      myMap.geoObjects.add( clusterer )
   }
 
 
   ymaps.ready(init); 
 
 function init () {
-    var myMap = new ymaps.Map("map", {
-      center:[51.706830092350074,36.106675680394076],
-      zoom: 13,
-      controls: ['fullscreenControl', 'zoomControl']
-    }); 
+  myMap = new ymaps.Map("map", {
+    center:[51.706830092350074,36.106675680394076],
+    zoom: 13,
+    controls: ['fullscreenControl', 'zoomControl']
+  }); 
 
-  filter_object(myMap);
+
+  filter_object();
 
 }

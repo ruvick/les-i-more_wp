@@ -47,7 +47,7 @@ get_header(); ?>
               foreach ($cats as $onecat) {
             ?>
                 <li class="WrapperPage__sidebar-spoller-body-list-item">
-                  <a href="#"><? echo $onecat->cat; ?><span><? echo $onecat->count; ?></span></a>
+                  <a class = "infra_selector" data-catname = "<? echo $onecat->cat; ?>" href="#"><? echo $onecat->cat; ?><span><? echo $onecat->count; ?></span></a>
                 </li>
             <?
               }
@@ -67,7 +67,7 @@ get_header(); ?>
       <?
         foreach ($objects as $obj) {
       ?>
-        <div class="WrapperPage__sidebar-infoBlock-item d-flex">
+        <div class="WrapperPage__sidebar-infoBlock-item d-flex"  data-catname = "<? echo $obj->cat; ?>">
           <div class="WrapperPage__sidebar-infoBlock-item-icon WrapperPage__sidebar-infoBlock-item-icon_01 <?echo get_table_icon($obj->cat);?>"></div>
           <div class="WrapperPage__sidebar-infoBlock-item-descp">
             <div class="WrapperPage__sidebar-infoBlock-item-descp-mame"><? echo $obj->name; ?></div>

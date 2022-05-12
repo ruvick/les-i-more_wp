@@ -15,3 +15,7 @@
     background-position: center;
     background-image: url(img/ifra_icon/sport.svg);
 }
+
+._selected {
+    color: #879026;
+}
