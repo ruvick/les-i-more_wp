@@ -17,7 +17,7 @@
 			</div>
 
 			<div class="header__navigation">
-				<a href="choose-house.html" class="header__choose-house-link choose-house-link btn">Выбрать дом</a>
+				<a href="<?php echo get_permalink(14);?>" class="header__choose-house-link choose-house-link btn">Выбрать дом</a>
 				<a href="tel:+74712543488" class="contacts__phone header__phone">+7 (4712) 54-34-88</a>
 				<!-- <a href="tel:+74712543488" class="mob-phone-icon header__mob-phone-icon"></a> -->
 
@@ -38,7 +38,7 @@
 		<h5 class="sidebar-menu__navigation-title">О проекте</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?php echo get_permalink(16);?>" class="sidebar-menu__navigation-list-item-link">
 					Инновационный поселок
 				</a>
 			</li>
@@ -61,7 +61,7 @@
 		<h5 class="sidebar-menu__navigation-title">Инфраструктура</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="infrastructure.html" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?php echo get_permalink(5);?>" class="sidebar-menu__navigation-list-item-link">
 					Объекты рядом
 				</a>
 			</li>
@@ -69,12 +69,12 @@
 		<h5 class="sidebar-menu__navigation-title">Как купить</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="pokupka.html" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?php echo get_permalink(8);?>" class="sidebar-menu__navigation-list-item-link">
 					Условия покупки
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="ipoteka.html" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?php echo get_permalink(10);?>" class="sidebar-menu__navigation-list-item-link">
 					Ипотека
 				</a>
 			</li>
@@ -84,7 +84,7 @@
 				</a>
 			</li>
 		</ul>
-		<h5 class="sidebar-menu__navigation-title"><a href="contacts.html"
+		<h5 class="sidebar-menu__navigation-title"><a href="<?php echo get_permalink(12);?>"
 				class="sidebar-menu__navigation-title-link">Контакты</a>
 		</h5>
 	</div>
