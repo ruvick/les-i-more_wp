@@ -5580,6 +5580,13 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
+@media (max-width: 1500px) {
+  .WrapperPage__sidebar {
+    flex: 0 0 480px;
+    padding: 35px 45px 60px 55px;
+  }
+}
+
 @media (max-width: 1460px) {
   ._container {
     padding: 0 10px;
@@ -5616,11 +5623,24 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
+@media (max-width: 1200px) {
+  .WrapperPage__sidebar {
+    flex: 0 0 400px;
+    padding: 35px 25px 60px 25px;
+  }
+}
+
 @media (min-width: 1025px) {
   .lg-outer .lg-thumb-item {
     -webkit-transition: border-color 0.25s ease;
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease;
+  }
+}
+
+@media (max-width: 1024px) {
+  .WrapperPage {
+    height: 650px;
   }
 }
 
@@ -5673,6 +5693,20 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .contacts__block-img-card {
     margin-top: 15px;
+  }
+
+  .WrapperPage {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .WrapperPage__sidebar {
+    flex: 0 1 100%;
+  }
+
+  .WrapperPage__main {
+    flex: 0 1 100%;
+    height: 450px;
   }
 }
 
@@ -5840,6 +5874,15 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .header-index {
     background: #27455e;
   }
+
+  .WrapperPage__sidebar-spoller-title:before {
+    right: 0;
+  }
+
+  .WrapperPage {
+    padding: 0 !important;
+  }
+
 }
 
 @media (max-width: 700px) {
@@ -5939,6 +5982,43 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .contacts__block-img {
     margin-top: 20px;
+  }
+
+  .WrapperPage__sidebar-spoller-body-btn {
+    flex-wrap: wrap;
+  }
+
+  .WrapperPage__sidebar-spoller-body-btn-link {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .WrapperPage__sidebar-spoller-body-btn-link:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 345px) {
+  .WrapperPage__sidebar-spoller-title {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+
+  .WrapperPage__sidebar-spoller-body-list-item {
+    margin-bottom: 5px;
+  }
+
+  .WrapperPage__sidebar-spoller-body-list-item a {
+    font-size: 18px;
+  }
+
+  .WrapperPage__sidebar-spoller-body-list {
+    margin-bottom: 30px;
+  }
+
+  .WrapperPage__sidebar-spoller-body {
+    padding-top: 20px;
   }
 }
 
