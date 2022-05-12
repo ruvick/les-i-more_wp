@@ -3,8 +3,7 @@
     height: auto;
 }
 
-.home_wrapper:hover {
-    
+.home_wrapper:hover {   
     fill: rgba(15, 155, 217, 0.36);
     border-color: #0d9bd9;
 }
