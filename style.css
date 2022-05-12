@@ -5520,18 +5520,60 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
 
 
+@media (max-width: 1800px) {
+  .header__container {
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}
 
+@media (max-width: 1600px) {
+  .header__navigation {
+    flex: 0 1 700px;
+  }
+}
 
+@media (max-width: 1460px) {
+  ._container {
+    padding: 0 10px;
+  }
+}
 
+@media (max-width: 1440px) {
+  .header__navigation {
+    flex: 0 1 630px;
+  }
 
+  .header__block-logo-text {
+    margin-right: 15px;
+  }
+}
 
+@media (max-width: 1330px) {
+  .header__block-logo-text-title {
+    font-size: 18px;
+  }
 
+  .header__block-logo-text-subtitle {
+    font-size: 14px;
+  }
+}
 
-@media (min-width: 991.98px) {
+@media (max-width: 1280px) {
+  .contacts__block-img {
+    margin-left: 50px;
+  }
 
-  .quantity__button:hover::before,
-  .quantity__button:hover::after {
-    background-color: rgba(0, 0, 0, 0.5);
+  .header__block-logo-text {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .lg-outer .lg-thumb-item {
+    -webkit-transition: border-color 0.25s ease;
+    -o-transition: border-color 0.25s ease;
+    transition: border-color 0.25s ease;
   }
 }
 
@@ -5545,17 +5587,11 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
-@media (min-width: 1025px) {
-  .lg-outer .lg-thumb-item {
-    -webkit-transition: border-color 0.25s ease;
-    -o-transition: border-color 0.25s ease;
-    transition: border-color 0.25s ease;
-  }
-}
+@media (min-width: 991.98px) {
 
-@media (max-width: 1200px) {
-  ._container {
-    padding: 0 10px;
+  .quantity__button:hover::before,
+  .quantity__button:hover::after {
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -5566,6 +5602,50 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .select__options {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 960px) {
+  .contacts__row {
+    flex-wrap: wrap;
+  }
+
+  .contacts__menu {
+    flex: 0 1 100%;
+  }
+
+  .contacts__block-img {
+    margin-left: 0;
+  }
+
+  .contacts__block-img {
+    margin-top: 15px;
+    align-items: flex-start;
+    margin-top: 35px;
+  }
+
+  .contacts__block-img-card {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 940px) {
+
+  .header__logo-line,
+  .header__logo {
+    display: none;
+  }
+}
+
+@media (max-width: 912px) {
+  .footer__block-descp {
+    flex: 0 1 100%;
+    order: 2;
+  }
+
+  .footer__logo {
+    order: 1;
+    margin-bottom: 10px;
   }
 }
 
@@ -5664,6 +5744,55 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   ::-webkit-scrollbar {
     display: none;
   }
+
+  .footer {
+    padding: 15px 0;
+  }
+
+  .footer__block-descp-title {
+    margin-bottom: 10px;
+  }
+
+  .header__choose-house-link {
+    display: none;
+  }
+
+  .header__block-logo {
+    margin-right: 15px;
+  }
+
+  .header__logo-les {
+    width: 76px;
+  }
+
+  .header__navigation {
+    flex: 0 1 100%;
+    justify-content: flex-end;
+  }
+
+  .header__phone {
+    font-size: 18px;
+    margin-right: 25px;
+  }
+
+  .icon-menu {
+    flex: 0 0 20px;
+    height: 14px;
+  }
+
+  .icon-menu span {
+    top: 6px;
+  }
+
+  .header__logo-les {
+    width: 35px;
+    height: 35px;
+    flex: 0 0 35px;
+  }
+
+  .header-index {
+    background: #27455e;
+  }
 }
 
 @media (max-width: 700px) {
@@ -5685,6 +5814,24 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .popup__form-block {
     padding: 35px 15px;
+  }
+}
+
+@media (max-width: 540px) {
+  .contacts__menu {
+    flex-wrap: wrap;
+  }
+
+  .contacts__menu-column {
+    margin-bottom: 25px;
+  }
+
+  .contacts__menu-title {
+    margin-bottom: 15px;
+  }
+
+  .contacts__menu-column:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -5735,6 +5882,16 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .search__input {
     border-radius: 0 !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .contacts__menu-column {
+    flex: 0 1 100%;
+  }
+
+  .contacts__block-img {
+    margin-top: 20px;
   }
 }
 
