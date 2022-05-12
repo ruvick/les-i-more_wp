@@ -4012,9 +4012,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .first-screen__title {
   font-family: "SputnikDisplay", sans-serif;
   font-weight: 700;
-  font-size: 195px;
+  font-size: 8.6vw;
   line-height: 0.65;
   color: #e1e1e1;
+  margin-bottom: -6px;
+  text-align: center;
 }
 
 .scroll-icon-block {

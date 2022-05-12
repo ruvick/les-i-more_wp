@@ -171,6 +171,8 @@ function my_assets()
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
 	wp_enqueue_script('infra', get_template_directory_uri() . '/js/infrostructura_map.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
 	wp_enqueue_script('houses', get_template_directory_uri() . '/js/houses.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
+	wp_enqueue_script('gsap', get_template_directory_uri() . '/js/gsap/gsap.min.js', array(), $scrypt_version, true); // Подключение анимации при скроле
+	wp_enqueue_script('animation', get_template_directory_uri() . '/js/animation.js', array(), $scrypt_version, true); // Подключение анимации при скроле
 
 	wp_localize_script('main', 'allAjax', array(
 		'ajaxurl' => admin_url('admin-ajax.php'),

@@ -10,14 +10,14 @@
 	</a>
 	<div class="first-screen__container _container">
 		<p class="first-screen__subtitle">ЖИЗНЬ ДОСТОЙНАЯ ВАС</p>
-		<h1 class="first-screen__title">Пятницкий лес</h1>
+		<h1 class="first-screen__title anim_pl_nadp element-animation">Пятницкий лес</h1>
 	</div>
 </section>
 
 <section id="advantages" class="advantages">
 	<div class="_container">
 		<h2 class="advantages__title">4 ВЕЛИКОЛЕПНЫХ ПРЕИМУЩЕСТВА</h2>
-		<div class="advantages__row d-flex">
+		<div class="advantages__row d-flex element-animation">
 
 			<div class="advantages__item d-flex">
 				<div class="advantages__item-number">1</div>
