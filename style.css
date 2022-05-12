@@ -5574,6 +5574,16 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
+@media (max-width: 1700px) {
+  ._container {
+    padding: 0 10px;
+  }
+
+  .page-recurring__container {
+    padding-right: 0 !important;
+  }
+}
+
 @media (max-width: 1600px) {
   .header__navigation {
     flex: 0 1 700px;
@@ -5587,12 +5597,6 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
-@media (max-width: 1460px) {
-  ._container {
-    padding: 0 10px;
-  }
-}
-
 @media (max-width: 1440px) {
   .header__navigation {
     flex: 0 1 630px;
@@ -5600,6 +5604,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .header__block-logo-text {
     margin-right: 15px;
+  }
+
+  .winner-descp {
+    margin-left: 0;
   }
 }
 
@@ -5610,6 +5618,15 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .header__block-logo-text-subtitle {
     font-size: 14px;
+  }
+
+  .BtnWrap {
+    padding: 45px 0;
+    padding-right: 10px;
+  }
+
+  .BtnWrap__list-item-link {
+    font-size: 24px;
   }
 }
 
@@ -5627,6 +5644,24 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .WrapperPage__sidebar {
     flex: 0 0 400px;
     padding: 35px 25px 60px 25px;
+  }
+
+  .purchase-content {
+    padding-right: 60px;
+  }
+
+  .page-recurring__content {
+    padding-top: 55px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .BtnWrap {
+    padding: 35px 10px 35px 0;
+  }
+
+  .BtnWrap__list-item-link {
+    font-size: 20px;
   }
 }
 
@@ -5708,6 +5743,11 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     flex: 0 1 100%;
     height: 450px;
   }
+
+  .winner-img {
+    max-width: 98%;
+    height: auto;
+  }
 }
 
 @media (max-width: 940px) {
@@ -5715,6 +5755,61 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .header__logo-line,
   .header__logo {
     display: none;
+  }
+
+  .page-recurring__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .page-recurring__column {
+    flex: 0 1 100%;
+    margin-bottom: 35px;
+  }
+
+  .page-recurring__column:last-child {
+    margin-bottom: 0;
+  }
+
+  .BtnWrap__list {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .page-recurring__img,
+  .page-recurring__content {
+    padding-right: 10px;
+  }
+
+  .page-recurring__row-list {
+    height: auto;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+  }
+
+  .page-recurring__row-list-item span {
+    margin-right: 25px;
+  }
+
+  .page-recurring__row-list-item {
+    flex: 0 0 60%;
+    font-size: 22px;
+    line-height: 30px;
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+
+  .page-recurring__row-list-item:last-child {
+    margin-right: 0;
+  }
+
+  .page-recurring__row-list::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
+  .page-recurring__row {
+    padding-top: 45px;
   }
 }
 
@@ -5735,9 +5830,9 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     font-size: 26px;
   }
 
-  h2 {
+  /* h2 {
     font-size: 24px;
-  }
+  } */
 
   .header {
     position: fixed;
@@ -5883,6 +5978,26 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     padding: 0 !important;
   }
 
+  .page-recurring__content {
+    padding-top: 35px;
+  }
+
+  .page-recurring__row-list-item span {
+    font-size: 100px;
+  }
+
+  .page-recurring__row-list-item {
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .page-recurring__block-descp-title,
+  .page-recurring__content-title {
+    font-size: 36px;
+    line-height: 45px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -5907,6 +6022,12 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
+@media (max-width: 630px) {
+  .page-recurring__row-list-item {
+    flex: 0 0 70%;
+  }
+}
+
 @media (max-width: 540px) {
   .contacts__menu {
     flex-wrap: wrap;
@@ -5922,6 +6043,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .contacts__menu-column:last-child {
     margin-bottom: 0;
+  }
+
+  .page-recurring__row-list-item {
+    flex: 0 0 80%;
   }
 }
 
@@ -5996,6 +6121,16 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .WrapperPage__sidebar-spoller-body-btn-link:last-child {
     margin-bottom: 0;
+  }
+
+  .page-recurring__row-list-item span {
+    font-size: 80px;
+  }
+
+  .page-recurring__row-list-item {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 10px;
   }
 }
 
