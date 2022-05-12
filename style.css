@@ -4449,7 +4449,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5LjkwMyIgaGVpZ2h0PSIxNC42OTgiIHZpZXdCb3g9IjAgMCA5LjkwMyAxNC42OTgiPg0KICA8ZyBpZD0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YxfMjc2IiBkYXRhLW5hbWU9ItCh0LPRgNGD0L/Qv9C40YDQvtCy0LDRgtGMIDI3NiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU4NDcuOTExIC0zMDAuNzIzKSI+DQogICAgPHBhdGggaWQ9ItCa0L7QvdGC0YPRgF82MjUiIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDYyNSIgZD0iTTU4NTIuODYyLDMwMC43MjNhNC45NTYsNC45NTYsMCwwLDAtNC45NTEsNC45NTFjMCwzLjc3Miw0LjUzMyw5LjQsNC43MjYsOS42NGEuMjkuMjksMCwwLDAsLjQ1LDBjLjE5My0uMjM3LDQuNzI3LTUuODY4LDQuNzI3LTkuNjRBNC45NTcsNC45NTcsMCwwLDAsNTg1Mi44NjIsMzAwLjcyM1ptMCwxMy45MzhjLS45MjQtMS4yLTQuMzcxLTUuODgzLTQuMzcxLTguOTg3YTQuMzcxLDQuMzcxLDAsMCwxLDguNzQzLDBDNTg1Ny4yMzQsMzA4Ljc3OCw1ODUzLjc4NiwzMTMuNDYyLDU4NTIuODYyLDMxNC42NjFaIiBmaWxsPSIjODc5MDI2Ii8+DQogICAgPHBhdGggaWQ9ItCa0L7QvdGC0YPRgF82MjYiIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDYyNiIgZD0iTTU4NTIuODYxLDMwMS44NjNhMy44NTQsMy44NTQsMCwxLDAsMy44NTYsMy44NTRBMy44NiwzLjg2LDAsMCwwLDU4NTIuODYxLDMwMS44NjNabTAsNy4xMjlhMy4yNzQsMy4yNzQsMCwxLDEsMy4yNzQtMy4yNzVBMy4yNzksMy4yNzksMCwwLDEsNTg1Mi44NjEsMzA4Ljk5MloiIGZpbGw9IiM4NzkwMjYiLz4NCiAgPC9nPg0KPC9zdmc+DQo=");
 }
 
+.spollers-block__item {
+  position: relative;
+}
+
 .WrapperPage__sidebar-spoller-body {
+  position: absolute;
+  background: #E1E1E1;
+  width: 100%;
   padding-top: 37px;
   padding-bottom: 50px;
 }
@@ -4477,6 +4484,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .WrapperPage__sidebar-spoller-title._active:before {
   transform: rotate(180deg);
+}
+
+.WrapperPage__sidebar-spoller-title.arrow-blink:before {
+  animation: arrow-blink 1.1s infinite;
+  -webkit-animation: arrow-blink 1.1s linear infinite;
+}
+
+@-webkit-keyframes arrow-blink {
+  50% {
+    position: absolute;
+    top: 25%;
+  }
+}
+
+@keyframes arrow-blink {
+  50% {
+    position: absolute;
+    top: 30%;
+  }
 }
 
 .WrapperPage__sidebar::-webkit-scrollbar {

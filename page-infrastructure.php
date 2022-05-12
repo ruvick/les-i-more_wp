@@ -39,7 +39,7 @@ get_header(); ?>
     
     <div class="spollers-block WrapperPage__sidebar-spoller" data-spollers data-one-spoller>
       <div class="spollers-block__item">
-        <div class="WrapperPage__sidebar-spoller-title spollers-block__title" data-spoller>Крупные объекты</div>
+        <div class="WrapperPage__sidebar-spoller-title spollers-block__title arrow-blink" data-spoller>Крупные объекты</div>
         <div class="WrapperPage__sidebar-spoller-body spollers-block__body">
           <ul class="WrapperPage__sidebar-spoller-body-list">
             
