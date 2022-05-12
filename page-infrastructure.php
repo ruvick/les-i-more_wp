@@ -55,8 +55,8 @@ get_header(); ?>
 
           </ul>
           <div class="WrapperPage__sidebar-spoller-body-btn">
-            <a href="#" class="WrapperPage__sidebar-spoller-body-btn-link btn" onclick = "filter_object(); return true;" >Показать</a>
-            <a href="#" class="WrapperPage__sidebar-spoller-body-btn-link btn btn-transparent">Сбросить</a>
+            <a href="#" class="WrapperPage__sidebar-spoller-body-btn-link btn" onclick = "show_obj_filter(); return true;" >Показать</a>
+            <a href="#" class="WrapperPage__sidebar-spoller-body-btn-link btn btn-transparent" onclick = "clear_obj_filter(); return true;">Сбросить</a>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ get_header(); ?>
       <?
         foreach ($objects as $obj) {
       ?>
-        <div class="WrapperPage__sidebar-infoBlock-item d-flex"  data-catname = "<? echo $obj->cat; ?>">
+        <div class="WrapperPage__sidebar-infoBlock-item d-flex object_table_element"  data-catname = "<? echo $obj->cat; ?>">
           <div class="WrapperPage__sidebar-infoBlock-item-icon WrapperPage__sidebar-infoBlock-item-icon_01 <?echo get_table_icon($obj->cat);?>"></div>
           <div class="WrapperPage__sidebar-infoBlock-item-descp">
             <div class="WrapperPage__sidebar-infoBlock-item-descp-mame"><? echo $obj->name; ?></div>

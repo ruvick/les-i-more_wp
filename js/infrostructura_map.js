@@ -7,16 +7,18 @@ document.addEventListener('DOMContentLoaded', () => {
       let element = allSelector[i].dataset.catname
       let elem_position = selectElement.indexOf(element)  
       
-      if (elem_position > 0) {
+      if (elem_position >= 0) {
         selectElement.splice(elem_position,1)
         allSelector[i].classList.remove("_selected")
       } else {
         selectElement.push(element)
         allSelector[i].classList.add("_selected")
       }
-      
+
       if (myMap != null) 
         filter_object();
+
+        obj_table_repaint();
     }) 
   }
 });
@@ -24,6 +26,38 @@ document.addEventListener('DOMContentLoaded', () => {
   var myMap = null; 
 
   let selectElement = []
+
+  function clear_obj_filter() {
+    selectElement = []
+    filter_object()
+    obj_table_repaint();
+    let allSelector = document.querySelectorAll(".infra_selector");
+    for (let i = 0; i<allSelector.length; i++) { 
+      allSelector[i].classList.remove("_selected")
+    }
+
+  }
+
+  function show_obj_filter() {
+    filter_object()
+  }
+
+
+  function obj_table_repaint() {
+
+
+    let objInTable = document.querySelectorAll(".object_table_element");
+
+       
+    for (let j = 0; j<objInTable.length; j++) {
+      let cat = objInTable[j].dataset.catname
+      let cat_position = selectElement.indexOf(cat) 
+        if ((selectElement.length == 0 ) || (cat_position >= 0)) 
+          objInTable[j].style.display = "flex"
+        else 
+          objInTable[j].style.display = "none"
+    }
+  }
 
   function get_map_pin(cat) {
     if (cat == "Образование") return "pin_school.svg";
