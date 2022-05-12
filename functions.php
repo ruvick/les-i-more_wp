@@ -144,8 +144,8 @@ function my_assets()
 
 	// Подключение стилей 
 
-	$style_version = "1.0.1";
-	$scrypt_version = "1.0.1";
+	$style_version = "1.0.11";
+	$scrypt_version = "1.0.11";
 
 	// wp_enqueue_style("style-modal", get_template_directory_uri() . "/css/jquery.arcticmodal-0.3.css", array(), $style_version, 'all'); //Модальные окна (стили)
 	// wp_enqueue_style("style-lightbox", get_template_directory_uri() . "/css/lightbox.min.css", array(), $style_version, 'all'); //Лайтбокс (стили)
@@ -154,6 +154,7 @@ function my_assets()
 
 	wp_enqueue_style("main-style", get_stylesheet_uri(), array(), $style_version, 'all'); // Подключение основных стилей в самом конце
 	wp_enqueue_style("infra_style", get_template_directory_uri() . "/infra_style.css", array(), $style_version, 'all'); //Стили инфраструктуры
+	wp_enqueue_style("houses_style", get_template_directory_uri() . "/houses_style.css", array(), $style_version, 'all'); //Стили инфраструктуры
 
 	// Подключение скриптов
 
@@ -169,6 +170,7 @@ function my_assets()
 
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
 	wp_enqueue_script('infra', get_template_directory_uri() . '/js/infrostructura_map.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
+	wp_enqueue_script('houses', get_template_directory_uri() . '/js/houses.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
 
 	wp_localize_script('main', 'allAjax', array(
 		'ajaxurl' => admin_url('admin-ajax.php'),
