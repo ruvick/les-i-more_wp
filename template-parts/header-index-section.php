@@ -4,7 +4,7 @@
 		<div class="header__row d-flex">
 
 			<div class="header__block-logo d-flex">
-				<a href="<? bloginfo("url"); ?>" class="logo-icon header__logo"></a>
+				<a href="<? echo get_permalink(16); ?>" class="logo-icon header__logo"></a>
 				<div class="header__logo-line"></div>
 				<a href="<?php echo get_permalink(16);?>" class="header__block-logo-text">
 					<h6 class="header__block-logo-text-title">Регионы - <br> устойчивое развитие</h6>
