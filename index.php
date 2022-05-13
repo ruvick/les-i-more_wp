@@ -19,37 +19,37 @@
 		<h2 class="advantages__title">4 ВЕЛИКОЛЕПНЫХ ПРЕИМУЩЕСТВА</h2>
 		<div class="advantages__row d-flex ">
 
-			<div class="advantages__item d-flex">
+			<a href = "#location" class="advantages__item d-flex">
 				<div class="advantages__item-number">1</div>
 				<div class="advantages__item-text">
 					Инновационный <br>
 					поселок
 				</div>
-			</div>
+			</a>
 
-			<div class="advantages__item d-flex">
+			<a href = "#ecology" class="advantages__item d-flex">
 				<div class="advantages__item-number">2</div>
 				<div class="advantages__item-text">
 					Экология и <br>
 					безопасность
 				</div>
-			</div>
+			</a>
 
-			<div class="advantages__item d-flex">
+			<a href = "#materials" class="advantages__item d-flex">
 				<div class="advantages__item-number">3</div>
 				<div class="advantages__item-text">
 					Качество <br>
 					материалов
 				</div>
-			</div>
+			</a>
 
-			<div class="advantages__item d-flex">
+			<a href = "#club-buyers" class="advantages__item d-flex">
 				<div class="advantages__item-number">4</div>
 				<div class="advantages__item-text">
 					Закрытый клуб <br>
 					покупателей
 				</div>
-			</div>
+			</a>
 
 		</div>
 	</div>
