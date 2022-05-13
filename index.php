@@ -152,7 +152,7 @@
 
 	<div class="_container">
 		<div class="ecology__row">
-			<div class="ecology__text-blcok">
+			<div class="ecology__text-blcok element-animation anim_blk_2_left">
 				<h2 class="ecology__text-blcok-title title">ЭКОЛОГИЯ И БЕЗОПАСНОСТЬ</h2>
 				<p class="ecology__text-blcok-subtitle">Жизнь класса Green</p>
 				<p class="ecology__text-blcok-paragraph">
@@ -161,7 +161,7 @@
 					Пятницкий Лес, что и дало наименование комплексу.
 				</p>
 			</div>
-			<div class="ecology__big-number big-number">2</div>
+			<div class="ecology__big-number big-number element-animation anim_blk_2_right">2</div>
 		</div>
 	</div>
 
@@ -189,14 +189,14 @@
 		</div>
 
 		<div class="ecology__info-block">
-			<div class="ecology__info-block-item">
+			<div class="ecology__info-block-item element-animation anim_preim">
 				<div class="ecology__info-block-item-icon ecology__info-block-item-icon_01"></div>
 				<div class="ecology__info-block-item-text">
 					Так же для обеспечения жильцов водой используется центральный водопровод
 					с водой из артезианской скважены.
 				</div>
 			</div>
-			<div class="ecology__info-block-item">
+			<div class="ecology__info-block-item element-animation anim_preim">
 				<div class="ecology__info-block-item-icon ecology__info-block-item-icon_02"></div>
 				<div class="ecology__info-block-item-text">
 					Согласно последним исследованиям человек гараздо быстрее восстанавливает
@@ -211,28 +211,30 @@
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/info-card.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/info-card.jpg?_v=1652295772944" alt=""></picture>
 			</div>
 			<div class="ecology__info-card-descp">
-				<p class="ecology__info-card-descp-paragraph">
-					Территория ЖК Пятницкий Лес является полностью
-					закрытой и охраняемой
-				</p>
-				<p class="ecology__info-card-descp-paragraph">
-					Вся территория поселка оборудована камерами видеонаблюдения
-				</p>
-				<p class="ecology__info-card-descp-paragraph">
-					Высокий уровень безопасности обеспечит наличие мультифакторной аутентификации на въезде в жилой комплекс
-					Система проверяет сразу несколько элементов: лицо, карта, брелок, пин-код, мобильный идентификатор,
-					доступ по временной ссылке
-				</p>
-				<div class="ecology__info-card-descp-iconBlcok">
-					<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_01"></div>
-					<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_02"></div>
-					<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_03"></div>
-					<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_04"></div>
-					<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_05"></div>
+				<div class = "element-animation anim_preim">
+					<p class="ecology__info-card-descp-paragraph">
+						Территория ЖК Пятницкий Лес является полностью
+						закрытой и охраняемой
+					</p>
+					<p class="ecology__info-card-descp-paragraph">
+						Вся территория поселка оборудована камерами видеонаблюдения
+					</p>
+					<p class="ecology__info-card-descp-paragraph">
+						Высокий уровень безопасности обеспечит наличие мультифакторной аутентификации на въезде в жилой комплекс
+						Система проверяет сразу несколько элементов: лицо, карта, брелок, пин-код, мобильный идентификатор,
+						доступ по временной ссылке
+					</p>
+					<div class="ecology__info-card-descp-iconBlcok">
+						<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_01"></div>
+						<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_02"></div>
+						<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_03"></div>
+						<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_04"></div>
+						<div class="ecology__info-card-descp-iconBlcok-icon ecology__info-card-descp-iconBlcok-icon_05"></div>
+					</div>
+					<p class="ecology__info-card-descp-paragraph">
+						Так же частная охранная группа готова круглосуточно оберегать покой жителей поселка Пятницкий
+					</p>
 				</div>
-				<p class="ecology__info-card-descp-paragraph">
-					Так же частная охранная группа готова круглосуточно оберегать покой жителей поселка Пятницкий
-				</p>
 			</div>
 		</div>
 
@@ -244,8 +246,8 @@
 	<div class="materials__bg">
 		<div class="_container">
 			<div class="materials-blcok">
-				<div class="materials-blcok__big-number big-number">3</div>
-				<div class="materials-blcok__descp">
+				<div class="materials-blcok__big-number big-number element-animation anim_blk_2_left">3</div>
+				<div class="materials-blcok__descp element-animation anim_blk_2_right">
 					<h2 class="materials-blcok__descp-title title">
 						КАЧЕСТВО <br>
 						МАТЕРИАЛОВ
@@ -264,7 +266,7 @@
 
 	<div class="_container">
 
-		<div class="materials-blcok__info-card">
+		<div class="materials-blcok__info-card element-animation anim_preim">
 			<div class="materials-blcok__info-card-img">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/01.jpg?_v=1652295772944" alt=""></picture>
 			</div>
@@ -276,7 +278,7 @@
 			</p>
 		</div>
 
-		<div class="materials-blcok__info-card">
+		<div class="materials-blcok__info-card  element-animation anim_preim">
 			<div class="materials-blcok__info-card-img">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/02.jpg?_v=1652295772944" alt=""></picture>
 			</div>
@@ -287,7 +289,7 @@
 			</p>
 		</div>
 
-		<div class="materials-blcok__info-card">
+		<div class="materials-blcok__info-card  element-animation anim_preim">
 			<div class="materials-blcok__info-card-img">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/03.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/03.jpg?_v=1652295772944" alt=""></picture>
 			</div>
@@ -298,7 +300,7 @@
 			</p>
 		</div>
 
-		<div class="materials-blcok__info-card">
+		<div class="materials-blcok__info-card  element-animation anim_preim">
 			<div class="materials-blcok__info-card-img">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/04.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/04.jpg?_v=1652295772944" alt=""></picture>
 			</div>
@@ -309,7 +311,7 @@
 			</p>
 		</div>
 
-		<div class="materials-blcok__info-card">
+		<div class="materials-blcok__info-card  element-animation anim_preim">
 			<div class="materials-blcok__info-card-img">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/05.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/05.jpg?_v=1652295772944" alt=""></picture>
 			</div>
@@ -328,8 +330,8 @@
 	<div class="club-buyers__bg materials__bg">
 		<div class="_container">
 			<div class="materials-blcok">
-				<div class="club-buyers__big-number big-number">4</div>
-				<div class="materials-blcok__descp">
+				<div class="club-buyers__big-number big-number element-animation anim_blk_2_left">4</div>
+				<div class="materials-blcok__descp element-animation anim_blk_2_right">
 					<h2 class="materials-blcok__descp-title title">
 						ЗАКРЫТЫЙ <br>
 						КЛУБ <br>

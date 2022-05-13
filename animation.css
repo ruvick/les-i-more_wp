@@ -24,3 +24,14 @@
     opacity: 0;
     transform: translate(40px, 0px);
 }
+
+.anim_blk_2_right {
+    opacity: 0;
+    transform: translate(40px, 0px); 
+}
+
+
+.anim_blk_2_left {
+    opacity: 0;
+    transform: translate(-40px, 0px); 
+}

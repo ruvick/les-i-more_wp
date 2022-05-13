@@ -33,6 +33,15 @@ function onEntry(entry) {
         if (change.target.classList.contains("anim_blk_1_map")) {
             gsap.to(change.target, { opacity: 1, x:0, duration: 1})
         }
+
+        if (change.target.classList.contains("anim_blk_2_right")) {
+            gsap.to(change.target, { opacity: 1, x:0, duration: 2})
+        }
+
+        if (change.target.classList.contains("anim_blk_2_left")) {
+            gsap.to(change.target, { opacity: 1, x:0, duration: 2})
+        }
+        
       }
     });
   }
