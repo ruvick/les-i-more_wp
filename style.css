@@ -5885,6 +5885,31 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     flex: 0 1 100%;
     height: 430px;
   }
+
+  .ecology__row {
+    flex-wrap: wrap;
+  }
+
+  .ecology__text-blcok {
+    order: 2;
+  }
+
+  .ecology__text-blcok-title {
+    text-align: center;
+    order: 1;
+  }
+
+  .ecology__text-blcok-subtitle {
+    text-align: center;
+  }
+
+  .ecology__text-blcok {
+    flex: 0 1 100%;
+  }
+
+  .ecology__big-number {
+    margin: 0px auto;
+  }
 }
 
 @media (min-width: 992px) {
@@ -6598,6 +6623,19 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__advantagesBlock-choice-title {
     font-size: 28px;
     line-height: 1.2;
+  }
+
+  .location__advantagesBlock-choice {
+    flex: 0 1 100%;
+    padding: 25px 10px;
+  }
+
+  .location__advantagesBlock-choice-link {
+    width: 100%;
+  }
+
+  .location__advantagesBlock-descp {
+    padding: 25px 10px;
   }
 }
 
