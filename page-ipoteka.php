@@ -137,7 +137,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/01.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/01.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
@@ -168,7 +168,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/02.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/02.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
@@ -199,7 +199,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/03.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/03.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/03.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/03.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
@@ -230,7 +230,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/04.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/04.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/04.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/04.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
@@ -261,7 +261,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/01.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/01.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
@@ -292,7 +292,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/02.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/02.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
@@ -323,7 +323,7 @@ get_header(); ?>
         <div class="banki-block__table-row">
           <div class="banki-block__table-cell">
             <div class="banki-block__table-cell-img">
-              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/03.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/03.jpg?_v=1652295772944" alt=""></picture>
+              <picture><source srcset="<?php echo get_template_directory_uri();?>/img/calculator/03.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/calculator/03.png?_v=1652295772944" alt=""></picture>
             </div>
           </div>
           <div class="banki-block__table-cell">
