@@ -60,9 +60,9 @@
 
 		<div class="location__row">
 
-			<div class="location__descp">
-				<div class="big-number">1</div>
-				<p class="location__descp-text">
+			<div class="location__descp element-animation anim_blk_1">
+				<div class="big-number element-animation anim_blk_1">1</div>
+				<p class="location__descp-text ">
 					Это ультра современный комплекс комфорт-класса европейского уровня, не имеющий аналогов в Курской
 					области и состоящий из 260 домов
 				</p>
@@ -83,14 +83,14 @@
 			</div>
 
 			<div class="location__navigation">
-				<h2 class="location__navigation-title title">ИННОВАЦИОННЫЙ ПОСЕЛОК</h2>
-				<p class="location__navigation-subtitle">Локация Пятницкий лес</p>
+				<h2 class="location__navigation-title title element-animation anim_blk_1_head">ИННОВАЦИОННЫЙ ПОСЕЛОК</h2>
+				<p class="location__navigation-subtitle  element-animation anim_blk_1_head2">Локация Пятницкий лес</p>
 				<div class="location__navigation-imagesBlock">
-					<div class="location__navigation-imagesBlock-img">
+					<div class="location__navigation-imagesBlock-img  element-animation anim_blk_1_img">
 						<picture><source srcset="<?php echo get_template_directory_uri();?>/img/location.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/location.jpg?_v=1652295772944" alt=""></picture>
 					</div>
 					<a href="<?php echo get_permalink(5);?>" class="location__navigation-imagesBlock-link btn">Смотреть карту</a>
-					<div class="location__navigation-imagesBlock-map">
+					<div class="location__navigation-imagesBlock-map element-animation anim_blk_1_map">
 						<div class="location__navigation-imagesBlock-map-nuar_blk nuar_blk"></div>
 						<picture><source srcset="<?php echo get_template_directory_uri();?>/img/map-img.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/map-img.jpg?_v=1652295772944" alt=""></picture>
 					</div>
@@ -102,15 +102,15 @@
 		<div class="location__advantagesBlock">
 
 			<div class="location__advantagesBlock-choice">
-				<h3 class="location__advantagesBlock-choice-title">
+				<h3 class="location__advantagesBlock-choice-title element-animation anim_preim">
 					Преимущества
 					планировочных
 					решений
 				</h3>
-				<a href="choose-house.html" class="location__advantagesBlock-choice-link btn">Выбрать дом</a>
+				<a href="choose-house.html" class="location__advantagesBlock-choice-link btn element-animation anim_preim">Выбрать дом</a>
 			</div>
 
-			<div class="location__advantagesBlock-descp">
+			<div class="location__advantagesBlock-descp element-animation anim_preim">
 				<p class="location__advantagesBlock-descp-paragraph">
 					Дома с террасами 120 м²;
 				</p>
