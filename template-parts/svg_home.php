@@ -120,49 +120,30 @@
 				<table>
  					<thead>
   					<tr>
-    					<th>№</th>
-    					<th>Этаж</th>
-     					<th>Коттедж, м2</th>
+    					<th>№ дома</th>
+    					<th>Улица</th>
+    					<th>Этажэй</th>
+     					<th>Метраж, м2</th>
      					<th>Цена, р.</th>
-     					<th>Планировки</th>
+     					<th></th>
   					</tr>
  					</thead>
 					<tbody>
-  					<tr>
-    					<td>1.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>2.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>3.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>4.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>5.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
+  					<?
+              foreach ($allHouse as $h) {
+            ?>
+                <tr>
+                  <td><? echo $h->home_number ?></td>
+                  <td><? echo $h->ulitsa ?></td>
+                  <td><? echo $h->etazgey ?></td>
+                  <td><? echo $h->ploshad ?></td>
+                  <td><span class = "price_formator"><? echo $h->price ?></span></td>
+                  <td><a href="#callback" class="btn _popup-link">Купить</a></td>
+                </tr>
+            <?
+              }
+            ?>
+
 					</tbody>  
 				</table>
 			</div>

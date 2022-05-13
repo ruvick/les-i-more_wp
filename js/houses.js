@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', (e) => {
+    number_format();
     e.preventDefault() 
     let home_wrapper = document.querySelectorAll(".home_wrapper");
     console.log(home_wrapper)
