@@ -11,7 +11,7 @@ function onEntry(entry) {
         }
         
         if (change.target.classList.contains("anim_preim")) {
-            gsap.to(".anim_preim", { opacity: 1, y:10, duration: 1, ease: "elastic"})
+            gsap.to(".anim_preim", { opacity: 1, y:10, duration: 1})
         }
       }
     });
