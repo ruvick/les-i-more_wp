@@ -40,38 +40,62 @@
 <!-- Popup-JS End -->
 
 <!-- Окно Подобрать коттедж -->
-<div class="popup popup_podbor">
-	<div class="popup__content">
-		<div class="popup__body">
+<div class="popup popup-podbor popup_podbor">
+	<div class="popup-podbor__content popup__content">
+		<div class="popup-podbor__body popup__body">
 			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-			<div class="popup__item d-flex">
-				<div class="popup__img">
-					<picture>
-						<source srcset="<?php echo get_template_directory_uri(); ?>/img/popup.webp" type="image/webp"><img src="<?php echo get_template_directory_uri(); ?>/img/popup.jpg?_v=1632757662937" alt="">
-					</picture>
-				</div>
-				<div class="popup__form-block">  
-					<h2>Заказать звонок</h2> 
-					
-					<div class="headen_form_blk">
-						<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
-						<form action="#" class="form universal_send_form">
-							
-							<div class="SendetMsg form_msg" style="display:none;">
-								Ваше сообщение успешно отправлено.
-							</div>
 
-							<div class="form__line">
-								<input autocomplete="off" type="text" name="name" placeholder="Имя" data-error="Ошибка" data-value="Имя" class="popup__form-input input _req">
-								<input autocomplete="off" type="text" name="tel" placeholder="Телефон" data-error="Ошибка" data-value="Телефон" class="popup__form-input input _phone _req">
-							</div>
-							<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
-									конфиденциальности</a></p>
-							<button type = "button" class="popup__form-btn form__btn btn u_send">Заказать</button>
-						</form>
-					</div>
-				</div>
+			<div class="popup-podbor__inner d-flex">
+				<table>
+ 					<thead>
+  					<tr>
+    					<th>№</th>
+    					<th>Этаж</th>
+     					<th>Коттедж, м2</th>
+     					<th>Цена, р.</th>
+     					<th>Планировки</th>
+  					</tr>
+ 					</thead>
+					<tbody>
+  					<tr>
+    					<td>1.</td>
+    					<td>1</td>
+							<td>110.12</td>
+							<td>***</td>
+							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
+  					</tr>
+  					<tr>
+    					<td>2.</td>
+    					<td>1</td>
+							<td>110.12</td>
+							<td>***</td>
+							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
+  					</tr>
+  					<tr>
+    					<td>3.</td>
+    					<td>1</td>
+							<td>110.12</td>
+							<td>***</td>
+							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
+  					</tr>
+  					<tr>
+    					<td>4.</td>
+    					<td>1</td>
+							<td>110.12</td>
+							<td>***</td>
+							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
+  					</tr>
+  					<tr>
+    					<td>5.</td>
+    					<td>1</td>
+							<td>110.12</td>
+							<td>***</td>
+							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
+  					</tr>
+					</tbody>  
+				</table>
 			</div>
+
 		</div>
 	</div>
 </div>

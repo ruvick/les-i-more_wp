@@ -5478,12 +5478,39 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   line-height: 46px;
 }
 
+.popup-podbor__content,
+.popup-podbor__body {
+  max-width: 100%;
+  height: 100%;
+}
 
+.popup-podbor__inner {
+  padding: 35px;
+}
 
+.popup-podbor__inner table {
+  width: 100%;
+}
 
+.popup-podbor__inner table tr {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
 
+.popup-podbor__inner tbody tr:hover {
+  background: #BBBAB9;
+}
 
+.popup-podbor__inner table th {
+  padding: 10px 0;
+}
 
+.popup-podbor__inner table td {
+  padding: 5px 0;
+}
 
 
 
@@ -6169,6 +6196,20 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
+@media (max-width: 630px) {
+  .page-recurring__row-list-item {
+    flex: 0 0 70%;
+  }
+
+  .popup-podbor__inner {
+    overflow: auto;
+  }
+
+  .popup-podbor__inner table tr {
+    width: 800px;
+  }
+}
+
 @media (max-width: 612px) {
   .popup__img {
     -webkit-box-flex: 0;
@@ -6183,12 +6224,6 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .popup-houses__img {
     flex: 0 1 100%;
     height: 300px;
-  }
-}
-
-@media (max-width: 630px) {
-  .page-recurring__row-list-item {
-    flex: 0 0 70%;
   }
 }
 
@@ -6321,6 +6356,19 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .search__input {
     border-radius: 0 !important;
+  }
+
+  .popup-podbor__inner table tr {
+    width: 600px;
+    font-size: 16px;
+  }
+
+  .popup-podbor__inner table th {
+    padding: 5px 0;
+  }
+
+  .popup-podbor__inner table td {
+    padding: 5px 0;
   }
 }
 
