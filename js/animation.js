@@ -11,27 +11,27 @@ function onEntry(entry) {
         }
         
         if (change.target.classList.contains("anim_preim")) {
-            gsap.to(".anim_preim", { opacity: 1, y:0, duration: 1})
+            gsap.to(change.target, { opacity: 1, y:0, duration: 1})
         }
 
         if (change.target.classList.contains("anim_blk_1")) {
-            gsap.to(".anim_blk_1", { opacity: 1, x:0, duration: 2})
+            gsap.to(change.target, { opacity: 1, x:0, duration: 2})
         }
 
         if (change.target.classList.contains("anim_blk_1_head")) {
-            gsap.to(".anim_blk_1_head", { opacity: 1, y:0, duration: 1})
+            gsap.to(change.target, { opacity: 1, y:0, duration: 1})
         }
 
         if (change.target.classList.contains("anim_blk_1_head2")) {
-            gsap.to(".anim_blk_1_head2", { opacity: 1, y:0, duration: 1})
+            gsap.to(change.target, { opacity: 1, y:0, duration: 1})
         }
 
         if (change.target.classList.contains("anim_blk_1_img")) {
-            gsap.to(".anim_blk_1_img", { opacity: 1, duration: 1})
+            gsap.to(change.target, { opacity: 1, duration: 1})
         }
 
         if (change.target.classList.contains("anim_blk_1_map")) {
-            gsap.to(".anim_blk_1_map", { opacity: 1, x:0, duration: 1})
+            gsap.to(change.target, { opacity: 1, x:0, duration: 1})
         }
       }
     });

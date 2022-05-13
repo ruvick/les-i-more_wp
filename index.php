@@ -110,29 +110,33 @@
 				<a href="choose-house.html" class="location__advantagesBlock-choice-link btn element-animation anim_preim">Выбрать дом</a>
 			</div>
 
-			<div class="location__advantagesBlock-descp element-animation anim_preim">
-				<p class="location__advantagesBlock-descp-paragraph">
-					Дома с террасами 120 м²;
-				</p>
-				<p class="location__advantagesBlock-descp-paragraph">
-					Широкий ассортимент планировочных решений квартир – от 1- до 5-комнатных, площадь квартир – от 46,2 до
-					175,8 м²;
-				</p>
-				<p class="location__advantagesBlock-descp-paragraph">
-					Количество квартир на этаже – от 3 до 6;
-				</p>
-				<p class="location__advantagesBlock-descp-paragraph">
-					Удобные кухни-гостиные до 33,6 м²;
-				</p>
-				<p class="location__advantagesBlock-descp-paragraph">
-					Возможность установки дровяных каминов в квартирах на последнем этаже;
-				</p>
-				<p class="location__advantagesBlock-descp-paragraph">
-					Квартиры с master bedroom с собственной гардеробной и ванной комнатой;
-				</p>
-				<p class="location__advantagesBlock-descp-paragraph">
-					Теплые лоджии в каждой квартире.
-				</p>
+			<div class="location__advantagesBlock-descp">
+				<div class = "element-animation anim_preim">
+
+				
+					<p class="location__advantagesBlock-descp-paragraph ">
+						Дома с террасами 120 м²;
+					</p>
+					<p class="location__advantagesBlock-descp-paragraph">
+						Широкий ассортимент планировочных решений квартир – от 1- до 5-комнатных, площадь квартир – от 46,2 до
+						175,8 м²;
+					</p>
+					<p class="location__advantagesBlock-descp-paragraph">
+						Количество квартир на этаже – от 3 до 6;
+					</p>
+					<p class="location__advantagesBlock-descp-paragraph">
+						Удобные кухни-гостиные до 33,6 м²;
+					</p>
+					<p class="location__advantagesBlock-descp-paragraph">
+						Возможность установки дровяных каминов в квартирах на последнем этаже;
+					</p>
+					<p class="location__advantagesBlock-descp-paragraph">
+						Квартиры с master bedroom с собственной гардеробной и ванной комнатой;
+					</p>
+					<p class="location__advantagesBlock-descp-paragraph">
+						Теплые лоджии в каждой квартире.
+					</p>
+				</div>
 			</div>
 
 			<div class="location__advantagesBlock-img">
