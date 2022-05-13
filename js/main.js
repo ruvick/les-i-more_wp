@@ -1343,6 +1343,11 @@ if (iconMenuOpen) {
 	});
 }
 
+function cloaseMenu() {
+	body.classList.remove("_lock");
+	menuBody.classList.remove("active");
+}
+
 if (iconMenuClose) {
 	iconMenuClose.addEventListener("click", function () {
 		body.classList.remove("_lock");

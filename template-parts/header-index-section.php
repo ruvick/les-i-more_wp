@@ -38,22 +38,22 @@
 		<h5 class="sidebar-menu__navigation-title">О проекте</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#location" class="sidebar-menu__navigation-list-item-link">
+				<a href="#location" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Инновационный поселок
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#ecology" class="sidebar-menu__navigation-list-item-link">
+				<a href="#ecology" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Экология и безопасность
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#materials" class="sidebar-menu__navigation-list-item-link">
+				<a href="#materials" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Качество материалов
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#club-buyers" class="sidebar-menu__navigation-list-item-link">
+				<a href="#club-buyers" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Закрытый клуб покупателей
 				</a>
 			</li>
