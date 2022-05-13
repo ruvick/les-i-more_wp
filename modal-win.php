@@ -39,6 +39,7 @@
 <!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
 <!-- Popup-JS End -->
 
+<!-- Окно Подобрать коттедж -->
 <div class="popup popup_cottage">
 	<div class="popup__content">
 		<div class="popup__body">
@@ -75,6 +76,61 @@
 	</div>
 </div>
 <!-- <a href="#cottage" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
+
+
+<!-- Всплывающее окно -->
+<div class="popup popup-houses popup_houses">
+	<div class="popup-houses__content popup__content">
+		<div class="popup-houses__body popup__body">
+			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
+			<div class="popup-houses__item popup__item d-flex">
+				<div class="popup-houses__img popup__img">
+					<picture>
+						<source srcset="<?php echo get_template_directory_uri(); ?>/img/popup.webp" type="image/webp"><img src="<?php echo get_template_directory_uri(); ?>/img/popup.jpg?_v=1632757662937" alt="">
+					</picture>
+				</div>
+				<div class="popup__descp">  
+					<h2 class="popup-houses__title">Коттедж №119</h2> 
+					<div class="popup-houses__identifier"># 8084962</div>
+
+					<div class="popup-houses__charect-block">
+
+						<div class="popup-houses__charect-block-row d-flex">
+							<div class="popup-houses__charect-block-cell">Общая площадь коттеджа:</div>
+							<div class="popup-houses__charect-block-cell">185.56 м2</div>
+						</div>
+
+						<div class="popup-houses__charect-block-row d-flex">
+							<div class="popup-houses__charect-block-cell">Внутренняя площадь:</div>
+							<div class="popup-houses__charect-block-cell">163.91 м2</div>
+						</div>
+
+						<div class="popup-houses__charect-block-row d-flex">
+							<div class="popup-houses__charect-block-cell">Площадь террасы:</div>
+							<div class="popup-houses__charect-block-cell">21.65 м2</div>
+						</div>
+
+						<div class="popup-houses__charect-block-row d-flex">
+							<div class="popup-houses__charect-block-cell">Площадь участка:</div>
+							<div class="popup-houses__charect-block-cell">450.00 м2</div>
+						</div>
+
+						<div class="popup-houses__charect-block-row d-flex">
+							<div class="popup-houses__charect-block-cell">Планировка:</div>
+							<div class="popup-houses__charect-block-cell">Свободная</div>
+						</div>
+						
+					</div>
+
+					<div class="popup-houses__price">23 538 706 руб</div>
+
+					<a href="#callback" class="popup-houses__btn btn _popup-link">Записатся на просмотр</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- <a href="#houses" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
 <!-- Popup-JS End -->
 <!-- ========================================================================================================================= -->
 <div style="display: none;">
