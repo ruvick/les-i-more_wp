@@ -5518,6 +5518,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     flex: 0 0 480px;
     padding: 35px 45px 60px 55px;
   }
+
+  .location__navigation-imagesBlock-map {
+    right: -3%;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -5532,6 +5536,16 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .winner-descp {
     margin-left: 0;
   }
+
+  .location__navigation-imagesBlock-link {
+    align-self: start;
+    margin-left: 15%;
+  }
+
+  .location__navigation-imagesBlock-map {
+    right: 10%;
+  }
+
 }
 
 @media (max-width: 1330px) {
@@ -5554,6 +5568,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .page-recurring__block-descp {
     padding: 255px 10px 135px 35px;
+  }
+
+  .location__navigation-imagesBlock-map {
+    right: 0%;
   }
 }
 
@@ -5582,6 +5600,21 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .advantages__item-text {
     font-size: 24px;
   }
+
+  .location__navigation-title {
+    font-size: 50px;
+    line-height: 1.1;
+  }
+
+  .location__navigation-subtitle {
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .location__navigation-imagesBlock {
+    margin-top: 35px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -5596,6 +5629,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .page-recurring__content {
     padding-top: 55px;
+  }
+
+  .location__navigation-imagesBlock-link {
+    margin-left: 5%;
   }
 }
 
@@ -5612,6 +5649,18 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .advantages__item-number {
     font-size: 75px;
   }
+
+  .location__navigation-imagesBlock-link {
+    margin-left: 0;
+  }
+
+  .location__navigation-imagesBlock-map {
+    bottom: -16%;
+    right: 6%;
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -5621,6 +5670,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .BtnWrap__list-item-link {
     font-size: 20px;
+  }
+
+  .location__navigation-imagesBlock-map {
+    right: 0%;
   }
 }
 
