@@ -5496,6 +5496,19 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .page-recurring__block-descp {
     padding: 105px 10px 260px 35px;
   }
+
+  .advantages__title {
+    margin-bottom: 65px;
+    font-size: 50px;
+  }
+
+  .advantages__item-number {
+    margin-right: 15px;
+  }
+
+  .advantages__item-text {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -5510,6 +5523,21 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .page-recurring__content {
     padding-top: 55px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .advantages__title {
+    font-size: 43px;
+  }
+
+  .advantages__item-text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .advantages__item-number {
+    font-size: 75px;
   }
 }
 
@@ -5539,6 +5567,23 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .page-recurring__block-descp {
     padding: 105px 10px 218px 35px;
   }
+
+  .first-screen {
+    background-position: 50%;
+  }
+
+  .advantages__item-number {
+    margin-right: 8px;
+  }
+
+  .advantages__item-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .advantages__title {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -5562,6 +5607,23 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .contactsNav-block__list-item-inner {
     flex: 0 1 100%;
+  }
+
+  .advantages__title {
+    font-size: 38px;
+  }
+
+  .advantages__row {
+    width: auto;
+    overflow: auto;
+  }
+
+  .advantages__item {
+    flex: 0 0 30%;
+  }
+
+  .advantages__row::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -5909,6 +5971,26 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .page-recurring__block-descp {
     padding: 45px 10px 45px 0px;
   }
+
+  .first-screen__subtitle {
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .advantages__item {
+    flex: 0 0 38%;
+  }
+
+  .advantages__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .advantages__title:before {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -5918,6 +6000,14 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     -webkit-transition: right 0.8s;
     -o-transition: right 0.8s;
     transition: right 0.8s;
+  }
+
+  .advantages__title:before {
+    display: none;
+  }
+
+  .advantages__item {
+    flex: 0 0 43%;
   }
 }
 
@@ -5958,6 +6048,16 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .page-recurring__row-list-item {
     flex: 0 0 80%;
+  }
+
+  .advantages__title {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 10px;
+  }
+
+  .advantages__item {
+    flex: 0 0 48%;
   }
 }
 
@@ -6005,6 +6105,27 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .page-recurring__block-map {
     height: 300px;
+  }
+
+  .first-screen__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .advantages__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+
+  .advantages__item-number {
+    font-size: 55px;
+  }
+
+  .advantages__item-text {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
@@ -6072,6 +6193,16 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 30px;
+  }
+
+  .advantages__title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .advantages__item {
+    flex: 0 0 65%;
   }
 }
 
