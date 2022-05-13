@@ -3535,6 +3535,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-size: 74px;
   line-height: 69px;
   color: #e1e1e1;
+  text-align: center;
 }
 
 .sidebar-menu__choose-house-link {
