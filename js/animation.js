@@ -6,11 +6,12 @@ function onEntry(entry) {
         change.target.classList.add('element-show');
 
         if (change.target.classList.contains("anim_pl_nadp")) {
-            gsap.from(".anim_pl_nadp", { opacity: 0, duration: 4, delay:1})
+            gsap.from(".anim_pl_nadp", { opacity: 0, duration: 3, delay:1})
+            gsap.from(".anim_pl_deviz", { opacity: 0, y:10, duration: 1, delay:1})
         }
         
         if (change.target.classList.contains("anim_preim")) {
-            gsap.to(".anim_preim", { opacity: 1, y:10, duration: 1})
+            gsap.to(".anim_preim", { opacity: 1, y:10, duration: 1, ease: "elastic"})
         }
       }
     });

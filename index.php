@@ -9,7 +9,7 @@
 		<p>Прокручивайте <br> страницу</p>
 	</a>
 	<div class="first-screen__container _container">
-		<p class="first-screen__subtitle">ЖИЗНЬ ДОСТОЙНАЯ ВАС</p>
+		<p class="first-screen__subtitle anim_pl_deviz element-animation">ЖИЗНЬ ДОСТОЙНАЯ ВАС</p>
 		<h1 class="first-screen__title anim_pl_nadp element-animation">Пятницкий лес</h1>
 	</div>
 </section>
