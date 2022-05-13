@@ -61,8 +61,9 @@
 		<div class="location__row">
 
 			<div class="location__descp element-animation anim_blk_1">
-				<div class="big-number element-animation anim_blk_1">1</div>
-				<p class="location__descp-text ">
+				<div class="location__big-number big-number element-animation anim_blk_1">1</div>
+				<div class="location__descp-text-block">
+				<p class="location__descp-text">
 					Это ультра современный комплекс комфорт-класса европейского уровня, не имеющий аналогов в Курской
 					области и состоящий из 260 домов
 				</p>
@@ -80,11 +81,32 @@
 					Велосипедные и беговые дорожки, пространства для пеших прогулок и даже собственный сквер - все это так
 					же в полном распряжении жителей ЖК Пятницкий.
 				</p>
+				</div>
 			</div>
 
 			<div class="location__navigation">
 				<h2 class="location__navigation-title title element-animation anim_blk_1_head">ИННОВАЦИОННЫЙ ПОСЕЛОК</h2>
 				<p class="location__navigation-subtitle  element-animation anim_blk_1_head2">Локация Пятницкий лес</p>
+				<div class="location__descp-text-block-mob">
+				<p class="location__descp-text">
+					Это ультра современный комплекс комфорт-класса европейского уровня, не имеющий аналогов в Курской
+					области и состоящий из 260 домов
+				</p>
+				<p class="location__descp-text">
+					здесь предусмотрено все необходимое для комфортной загородной жизни
+				</p>
+				<p class="location__descp-text">
+					Торговый центр и частный детский сад специально для жителей поселка
+				</p>
+				<p class="location__descp-text">
+					приватная внутренняя территория комплекса оборудованна оригинальными зонами для отдыха спорта и детских
+					игр
+				</p>
+				<p class="location__descp-text">
+					Велосипедные и беговые дорожки, пространства для пеших прогулок и даже собственный сквер - все это так
+					же в полном распряжении жителей ЖК Пятницкий.
+				</p>
+				</div>
 				<div class="location__navigation-imagesBlock">
 					<div class="location__navigation-imagesBlock-img  element-animation anim_blk_1_img">
 						<picture><source srcset="<?php echo get_template_directory_uri();?>/img/location.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/location.jpg?_v=1652295772944" alt=""></picture>
