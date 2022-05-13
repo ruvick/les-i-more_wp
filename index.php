@@ -15,9 +15,9 @@
 </section>
 
 <section id="advantages" class="advantages">
-	<div class="_container">
+	<div class="_container element-animation anim_preim">
 		<h2 class="advantages__title">4 ВЕЛИКОЛЕПНЫХ ПРЕИМУЩЕСТВА</h2>
-		<div class="advantages__row d-flex element-animation">
+		<div class="advantages__row d-flex ">
 
 			<div class="advantages__item d-flex">
 				<div class="advantages__item-number">1</div>
