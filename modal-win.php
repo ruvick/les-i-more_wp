@@ -39,69 +39,6 @@
 <!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
 <!-- Popup-JS End -->
 
-<!-- Окно Подобрать коттедж -->
-<div class="popup popup-podbor popup_podbor">
-	<div class="popup-podbor__content popup__content">
-		<div class="popup-podbor__body popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-
-			<div class="popup-podbor__inner d-flex">
-				<table>
- 					<thead>
-  					<tr>
-    					<th>№</th>
-    					<th>Этаж</th>
-     					<th>Коттедж, м2</th>
-     					<th>Цена, р.</th>
-     					<th>Планировки</th>
-  					</tr>
- 					</thead>
-					<tbody>
-  					<tr>
-    					<td>1.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>2.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>3.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>4.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-  					<tr>
-    					<td>5.</td>
-    					<td>1</td>
-							<td>110.12</td>
-							<td>***</td>
-							<td><a href="#callback" class="btn _popup-link">Купить</a></td>
-  					</tr>
-					</tbody>  
-				</table>
-			</div>
-
-		</div>
-	</div>
-</div>
-<!-- <a href="#podbor" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
-
-
 <!-- Всплывающее окно -->
 <div class="popup popup-houses popup_houses">
 	<div class="popup-houses__content popup__content">
