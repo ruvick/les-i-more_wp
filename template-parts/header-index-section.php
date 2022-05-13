@@ -38,9 +38,7 @@
 		<h5 class="sidebar-menu__navigation-title">О проекте</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="<?echo get_bloginfo("url")?>/#location" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
-					Инновационный поселок
-				</a>
+				<a href="<?echo get_bloginfo("url")?>/#location" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">Инновационный поселок</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
 				<a href="<?echo get_bloginfo("url")?>/#ecology" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
@@ -79,7 +77,7 @@
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?php echo get_permalink(19);?>" class="sidebar-menu__navigation-list-item-link">
 					Рассрочка
 				</a>
 			</li>

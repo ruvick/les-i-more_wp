@@ -8,37 +8,26 @@
   <div class="contacts__menu-column">
     <h6 class="contacts__menu-title">О ПРОЕКТЕ</h6>
     <ul class="contacts__menu-list">
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Архитектура</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?echo get_bloginfo("url")?>/#location" class="contacts__menu-list-item-link">Инновационный поселок</a>
       </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Расположение</a></li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Фотогалерея</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?echo get_bloginfo("url")?>/#ecology" class="contacts__menu-list-item-link">Экология и безопасность</a>
       </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Панорама
-          360</a></li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Участники
-          проекта</a></li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Документы</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?echo get_bloginfo("url")?>/#materials" class="contacts__menu-list-item-link">Качество материалов</a>
       </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Преимущества</a></li>
+      <li class="contacts__menu-list-item">
+        <a href="<?echo get_bloginfo("url")?>/#club-buyers" class="contacts__menu-list-item-link">Закрытый клуб покупателей</a>
+      </li>
     </ul>
   </div>
 
   <div class="contacts__menu-column">
-    <h6 class="contacts__menu-title">НОВОСТИ ПРОЕКТА</h6>
+    <h6 class="contacts__menu-title">Инфраструктура</h6>
     <ul class="contacts__menu-list">
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Новости</a>
-      </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">СМИ о нас</a>
-      </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Ход
-          строительства</a>
-      </li>
-    </ul>
-    <h6 class="contacts__menu-title">КУПИТЬ</h6>
-    <ul class="contacts__menu-list">
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Квартира</a>
-      </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Дом</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?php echo get_permalink(8);?>" class="contacts__menu-list-item-link">Условия покупки</a>
       </li>
     </ul>
   </div>
@@ -46,15 +35,19 @@
   <div class="contacts__menu-column">
     <h6 class="contacts__menu-title">КАК КУПИТЬ</h6>
     <ul class="contacts__menu-list">
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Условия
-          покупки</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?php echo get_permalink(8);?>" class="contacts__menu-list-item-link">Условия покупки</a>
       </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Ипотека</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?php echo get_permalink(10);?>" class="contacts__menu-list-item-link">Ипотека</a>
       </li>
-      <li class="contacts__menu-list-item"><a href="#" class="contacts__menu-list-item-link">Рассрочка</a>
+      <li class="contacts__menu-list-item">
+        <a href="<?php echo get_permalink(19);?>" class="contacts__menu-list-item-link">Рассрочка</a>
       </li>
     </ul>
-    <h6 class="contacts__menu-title"><a href="contacts.html" class="contacts__menu-title-link">КОНТАКТЫ</a></h6>
+    <h6 class="contacts__menu-title">
+      <a href="<?php echo get_permalink(12);?>" class="contacts__menu-title-link">КОНТАКТЫ</a>
+    </h6>
   </div>
 
 </div>

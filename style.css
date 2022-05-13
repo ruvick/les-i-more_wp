@@ -9,7 +9,47 @@ Version: 1.0.1
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+/* @font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Thin.eot");
+  src: local("вє"), url("fonts/Lato-Thin.woff") format("woff"), url("fonts/Lato-Thin.ttf") format("truetype"), url("fonts/Lato-Thin.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.eot");
+  src: local("вє"), url("fonts/Lato-Regular.woff") format("woff"), url("fonts/Lato-Regular.ttf") format("truetype"), url("fonts/Lato-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Semibold.eot");
+  src: local("вє"), url("fonts/Lato-Semibold.woff") format("woff"), url("fonts/Lato-Semibold.ttf") format("truetype"), url("fonts/Lato-Semibold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Bold.eot");
+  src: local("вє"), url("fonts/Lato-Bold.woff") format("woff"), url("fonts/Lato-Bold.ttf") format("truetype"), url("fonts/Lato-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Heavy.eot");
+  src: local("вє"), url("fonts/Lato-Heavy.woff") format("woff"), url("fonts/Lato-Heavy.ttf") format("truetype"), url("fonts/Lato-Heavy.svg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "SputnikDisplay";
@@ -3822,7 +3862,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .big-number {
   font-family: "Lato", sans-serif;
   font-size: 440.65px;
-  font-weight: 300;
+  font-weight: 100;
   color: #879026;
 }
 
@@ -4546,11 +4586,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   flex: 1 1 auto;
   padding: 67px 107px 35px 132px;
   background: #917E7E;
+  font-family: "Lato";
 }
 
 .location__advantagesBlock-descp-paragraph {
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .location__advantagesBlock-descp-paragraph:last-child {
@@ -5582,10 +5623,6 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__navigation-imagesBlock-map {
     right: 10%;
   }
-
-  .location__advantagesBlock-descp {
-    padding: 67px 55px 35px 55px;
-  }
 }
 
 @media (max-width: 1330px) {
@@ -5612,6 +5649,18 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .location__navigation-imagesBlock-map {
     right: 0%;
+  }
+
+  .sidebar-menu__navigation {
+    padding: 80px 30px 30px 160px;
+  }
+
+  .location__advantagesBlock-descp {
+    padding: 67px 80px 35px 80px;
+  }
+
+  .ecology__info-card-descp {
+    padding: 40px 63px 40px 63px;
   }
 }
 
@@ -5655,6 +5704,23 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__navigation-imagesBlock {
     margin-top: 35px;
   }
+
+  .location__advantagesBlock-descp {
+    padding: 67px 55px 35px 55px;
+  }
+
+  .ecology__info-card-descp {
+    padding: 40px 50px 40px 50px;
+  }
+
+  .ecology__info-card-img {
+    flex: 0 0 790px;
+  }
+
+  .ecology__info-card-descp-iconBlcok {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -5731,6 +5797,44 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__advantagesBlock-choice {
     flex: 0 0 330px;
     padding: 58px 15px 35px 20px;
+  }
+
+  .sidebar-menu__contacts {
+    padding: 162px 30px 153px 30px;
+  }
+  
+  .sidebar-menu__navigation {
+    padding: 80px 30px 30px 100px;
+  }
+
+  .location__advantagesBlock-img {
+    flex: 0 0 230px;
+  }
+
+  .ecology__info-card-descp {
+    flex: 0 0 50%;
+  }
+
+  .ecology__info-card-img {
+    flex: 0 1 50%;
+  }
+
+  .ecology__info-card-img img { 
+    max-width: unset;
+    width: auto;
+  }
+
+  .materials-blcok__info-card-text {
+    font-size: 18px;
+  }
+
+  .developer__img {
+    flex: 0 0 50%;
+    margin-right: 35px;
+  }
+
+  .developer__descp {
+    flex: 0 0 30%;
   }
 }
 
@@ -6075,6 +6179,8 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .popup__descp {
     flex: 0 1 100%;
   }
+
+
 }
 
 @media (max-width: 812px) {
@@ -6088,6 +6194,83 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .popup-podbor__inner table {
     width: 100%;
+  }
+
+  .sidebar-menu {
+    flex-direction: column;
+  }
+
+  .sidebar-menu__navigation {
+    flex: 0 0 70.3%;
+  }
+
+  .sidebar-menu__contacts {
+    padding: 34px 30px 72px 30px;
+  }
+
+  .sidebar-menu__contacts-text-title br {
+    display: none;
+  }
+
+  .sidebar-menu__contacts-text-subtitle {
+    text-align: center;
+  }
+
+  .sidebar-menu__choose-house-link {
+    display: none;
+  }
+  .big-number,
+  .ecology__big-number,
+  .location__big-number {
+    font-size: 200px;
+  }
+
+  .location__advantagesBlock-img {
+    display: none;
+  }
+
+  .ecology__BigImg {
+    height: unset;
+  }
+
+  .ecology__info-block-item-text {
+    font-size: 18px;
+  }
+
+  .ecology__info-card {
+    flex-direction: column-reverse;
+  }
+
+  .materials-blcok {
+    flex-direction: column;
+  }
+
+  .materials-blcok__descp {
+    max-width: unset;
+  }
+
+  .materials-blcok__info-card {
+    flex-direction: column;
+  }
+
+  .materials-blcok__info-card-img {
+    flex: unset;
+    height: unset;
+    margin-right: unset;
+    margin: 0 auto 20px auto;
+    
+  }
+
+  .developer__row {
+    flex-direction: column-reverse;
+  }
+
+  .developer__descp {
+    margin-bottom: 20px;
+  }
+
+  .developer__img {
+    margin-right: 0;
   }
 }
 
@@ -6108,6 +6291,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
 
+  
   .header__logo {
     margin-right: 20px;
   }
@@ -6319,6 +6503,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__advantagesBlock-choice-title {
     margin-bottom: 25px;
   }
+
 }
 
 @media (max-width: 700px) {
@@ -6407,10 +6592,17 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     line-height: 1;
   }
 
+  .ecology__info-block-item-text,
+  .ecology__paragraph,
+  .ecology__text-blcok-paragraph,
   .location__descp-text {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 10px;
+  }
+
+  .ecology__ImgBlock .ecology__ImgBlock-item:last-child{
+    display: none;
   }
 
   .location__navigation-imagesBlock-link {
@@ -6423,6 +6615,25 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .location__navigation-imagesBlock-map {
     height: 200px;
+  }
+
+  .ecology__info-block-item {
+    flex-direction: column;
+  }
+
+  .ecology__info-block-item-icon_02:before,
+  .ecology__info-block-item-icon_01:before {
+    width:95px;
+  }
+
+  .materials-blcok__descp-subtitle {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .ecology__info-block-item-icon{
+    margin-right: auto;
+    margin-bottom: 20px;
   }
 }
 
@@ -6500,6 +6711,11 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .location__advantagesBlock-img {
     height: 230px;
+  }
+  .developer__descp-title,
+  .title {
+    font-size: 36px;
+    line-height: 1;
   }
 }
 
@@ -6639,7 +6855,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 }
 
-@media (max-width: 345px) {
+@media (max-width: 375px) {
   .WrapperPage__sidebar-spoller-title {
     font-size: 22px;
     padding-bottom: 20px;
@@ -6663,6 +6879,19 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .location__navigation-imagesBlock-link {
     font-size: 16px;
+  }
+  .developer__descp-title, .title {
+    font-size: 36px;
+    line-height: 1;
+  }
+
+  .developer__descp-title, .title {
+    font-size: 28px;
+  }
+
+  .location__navigation-subtitle {
+    font-size: 22px;
+    line-height: 1;
   }
 }
 
