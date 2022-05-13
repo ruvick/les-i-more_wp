@@ -85,15 +85,15 @@
 			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
 			<div class="popup-houses__item popup__item d-flex">
 				<div class="popup-houses__img popup__img">
-					<picture>
-						<source srcset="<?php echo get_template_directory_uri(); ?>/img/popup.webp" type="image/webp"><img src="<?php echo get_template_directory_uri(); ?>/img/popup.jpg?_v=1632757662937" alt="">
-					</picture>
+					
+						<img src="<?php echo get_template_directory_uri(); ?>/img/popup.jpg?_v=1632757662937" alt="">
+					
 				</div>
 				<div class="popup__descp">  
 					<h2 class="popup-houses__title">Коттедж №119</h2> 
 					<div class="popup-houses__identifier"># 8084962</div>
 
-					<div class="popup-houses__charect-block">
+					<div id="popup-houses__charect-block" class="popup-houses__charect-block">
 
 						<div class="popup-houses__charect-block-row d-flex">
 							<div class="popup-houses__charect-block-cell">Общая площадь коттеджа:</div>

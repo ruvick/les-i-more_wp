@@ -8,6 +8,7 @@
       "Площадь кухни + гостинная" => "47,64 м²",
       "Колличество спален" => 2,
       "Земельный участок" => "10 соток",
+      "img" => get_template_directory_uri()."/img/houses_type/kt1.jpg"
     ],
     "Коттедж 2" => [
       "Этажей" => 1,
@@ -17,6 +18,7 @@
       "Площадь кухни + гостинная" => "55,69 м²",
       "Колличество спален" => 2,
       "Земельный участок" => "10 соток",
+      "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg"
     ],
     "Квадро" => [
       "Этажей" => 2,
@@ -26,6 +28,7 @@
       "Площадь кухни + гостинная" => "31,8 м²",
       "Колличество спален" => 2,
       "Земельный участок" => "2 сотки",
+      "img" => get_template_directory_uri()."/img/houses_type/q.jpg"
     ],
     "Дуплекс" => [
       "Этажей" => 2,
@@ -35,6 +38,7 @@
       "Площадь кухни + гостинная" => "41,6/31,87м²",
       "Колличество спален" => 2,
       "Земельный участок" => "5 сотки",
+      "img" => get_template_directory_uri()."/img/houses_type/dup.jpg"
     ],
     "Усадьба" => [
       "Площадь" => "278,4 м²",
@@ -44,8 +48,10 @@
       "Количество спален" => 4,
       "Тип" => "Коттедж",
       "Земельный участок" => "15 соток",
+      "img" => get_template_directory_uri()."/img/houses_type/us.jpg"
     ],
   ];
+
 
   $relation = [	
       "home_wrapper_1" => "translate(1313 699)",
@@ -85,7 +91,13 @@
 
       foreach ($allHouse as $h) {
     ?>
-      <g class = "home_wrapper" title = "Дом № <? echo $h->home_number?>, по улице <? echo $h->ulitsa?>" data-postr = "<? echo $h->type?>"  id="home_wrapper_<? echo $h->element_id?>"  transform="<? echo $relation["home_wrapper_".$h->element_id]?>" fill="rgba(114,235,109,0.36)" stroke="#707070" stroke-width="1">
+      <g class = "home_wrapper" 
+      title = "Дом № <? echo $h->home_number?>, по улице <? echo $h->ulitsa?>" 
+      data-postr = "<? echo $h->type?>"  
+      data-hnumber = "<? echo $h->home_number?>"  
+      data-hild = "<? echo $h->element_id?>"  
+      id="home_wrapper_<? echo $h->element_id?>"  
+      transform="<? echo $relation["home_wrapper_".$h->element_id]?>" fill="rgba(114,235,109,0.36)" stroke="#707070" stroke-width="1">
         <rect width="50" height="41" stroke="none"/>
         <rect x="0.5" y="0.5" width="49" height="40" fill="none"/>
       </g>
@@ -93,9 +105,10 @@
       }
     ?>
 
-    <!-- <g class = "home_wrapper" id="Прямоугольник_2" data-name="Прямоугольник 2" transform="translate(1313 653)" fill="rgba(114,235,109,0.36)" stroke="#707070" stroke-width="1">
-      <rect width="50" height="41" stroke="none"/>
-      <rect x="0.5" y="0.5" width="49" height="40" fill="none"/>
-    </g> -->
+
   </g>
 </svg>
+
+<script>
+  let houses_project = <?echo json_encode($project);?>;
+</script>
