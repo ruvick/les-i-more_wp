@@ -6,6 +6,10 @@ function onEntry(entry) {
         if (change.target.classList.contains("anim_pl_nadp")) {
             gsap.from(".anim_pl_nadp", { opacity: 0, duration: 4, delay:1})
         }
+        
+        if (change.target.classList.contains("anim_preim")) {
+            gsap.from(".anim_preim", { opacity: 0, duration: 4, delay:1})
+        }
       }
     });
   }
