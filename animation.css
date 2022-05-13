@@ -2,3 +2,25 @@
     opacity: 0;
     transform: translate(0px, -20px);
 }
+
+.anim_blk_1 { 
+    opacity: 0;
+    transform: translate(-40px, 0px);
+}
+
+.anim_blk_1_head {
+    opacity: 0;
+    transform: translate(0px, -20px);
+}
+.anim_blk_1_head2 {
+    opacity: 0;
+    transform: translate(0px, -20px);
+}
+.anim_blk_1_img {
+    opacity: 0.5;
+}
+
+.anim_blk_1_map {
+    opacity: 0;
+    transform: translate(40px, 0px);
+}
