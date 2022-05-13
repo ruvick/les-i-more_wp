@@ -40,7 +40,7 @@
 <!-- Popup-JS End -->
 
 <!-- Окно Подобрать коттедж -->
-<div class="popup popup_cottage">
+<div class="popup popup_podbor">
 	<div class="popup__content">
 		<div class="popup__body">
 			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
@@ -75,7 +75,7 @@
 		</div>
 	</div>
 </div>
-<!-- <a href="#cottage" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
+<!-- <a href="#podbor" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
 
 
 <!-- Всплывающее окно -->

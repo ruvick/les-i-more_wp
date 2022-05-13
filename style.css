@@ -3269,6 +3269,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .header__block-logo-text {
   position: relative;
+  color: #fff;
   padding-left: 35px;
   margin-right: 61px;
 }
@@ -5036,6 +5037,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .contactsNav-block__subtitle {
+  font-family: 'Montserrat';
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55.2px;
   margin-bottom: 78px;
 }
 
@@ -5156,8 +5161,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-flex: 0;
   -ms-flex: 0 1 40%;
   flex: 0 1 40%;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 28px;
   font-weight: 500;
   margin-bottom: 65px;
 }
@@ -5463,6 +5468,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
 .popup-houses__btn {}
 
+.page-recurring__content-title {
+  font-size: 36px;
+  line-height: 46px;
+}
 
 
 

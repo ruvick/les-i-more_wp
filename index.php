@@ -89,7 +89,7 @@
 					<div class="location__navigation-imagesBlock-img">
 						<picture><source srcset="<?php echo get_template_directory_uri();?>/img/location.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/location.jpg?_v=1652295772944" alt=""></picture>
 					</div>
-					<a href="#" class="location__navigation-imagesBlock-link btn">Смотреть карту</a>
+					<a href="<?php echo get_permalink(5);?>" class="location__navigation-imagesBlock-link btn">Смотреть карту</a>
 					<div class="location__navigation-imagesBlock-map">
 						<div class="location__navigation-imagesBlock-map-nuar_blk nuar_blk"></div>
 						<picture><source srcset="<?php echo get_template_directory_uri();?>/img/map-img.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/map-img.jpg?_v=1652295772944" alt=""></picture>

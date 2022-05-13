@@ -6,14 +6,14 @@
 			<div class="header__block-logo d-flex">
 				<a href="<? bloginfo("url"); ?>" class="logo-icon header__logo"></a>
 				<div class="header__logo-line"></div>
-				<div class="header__block-logo-text">
+				<a href="<?php echo get_permalink(16);?>" class="header__block-logo-text">
 					<h6 class="header__block-logo-text-title">Регионы - <br> устойчивое развитие</h6>
 					<p class="header__block-logo-text-subtitle">
 						Общероссийский ежегодный комплекс.
 						Организационный комитет
 					</p>
-				</div>
-				<a href="#" class="header__logo-les"></a>
+				</a>
+				<a href="<? bloginfo("url"); ?>" class="header__logo-les"></a>
 			</div>
 
 			<div class="header__navigation">
@@ -38,22 +38,22 @@
 		<h5 class="sidebar-menu__navigation-title">О проекте</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="<?php echo get_permalink(16);?>" class="sidebar-menu__navigation-list-item-link">
+				<a href="#location" class="sidebar-menu__navigation-list-item-link">
 					Инновационный поселок
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#" class="sidebar-menu__navigation-list-item-link">
+				<a href="#ecology" class="sidebar-menu__navigation-list-item-link">
 					Экология и безопасность
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#" class="sidebar-menu__navigation-list-item-link">
+				<a href="#materials" class="sidebar-menu__navigation-list-item-link">
 					Качество материалов
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#" class="sidebar-menu__navigation-list-item-link">
+				<a href="#club-buyers" class="sidebar-menu__navigation-list-item-link">
 					Закрытый клуб покупателей
 				</a>
 			</li>
