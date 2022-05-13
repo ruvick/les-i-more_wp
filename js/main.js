@@ -1,5 +1,13 @@
 // Файлы Java Script -----------------------------------------------------------------------------------------------------
 
+function number_format() {
+	let elements = document.querySelectorAll('.price_formator');
+	for (let elem of elements) {
+	  elem.dataset.realPrice = elem.innerHTML;
+	  elem.innerHTML = Number(elem.innerHTML).toLocaleString('ru-RU');
+	}
+  }
+
 // возвращает куки с указанным name,
 // или undefined, если ничего не найдено
 function getCookie(name) {

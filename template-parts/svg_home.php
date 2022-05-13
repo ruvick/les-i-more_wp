@@ -96,6 +96,7 @@
       data-postr = "<? echo $h->type?>"  
       data-hnumber = "<? echo $h->home_number?>"  
       data-hild = "<? echo $h->element_id?>"  
+      data-price = "<? echo $h->price?>"  
       id="home_wrapper_<? echo $h->element_id?>"  
       transform="<? echo $relation["home_wrapper_".$h->element_id]?>" fill="rgba(114,235,109,0.36)" stroke="#707070" stroke-width="1">
         <rect width="50" height="41" stroke="none"/>
