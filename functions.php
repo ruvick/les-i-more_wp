@@ -155,6 +155,7 @@ function my_assets()
 	wp_enqueue_style("main-style", get_stylesheet_uri(), array(), $style_version, 'all'); // Подключение основных стилей в самом конце
 	wp_enqueue_style("infra_style", get_template_directory_uri() . "/infra_style.css", array(), $style_version, 'all'); //Стили инфраструктуры
 	wp_enqueue_style("houses_style", get_template_directory_uri() . "/houses_style.css", array(), $style_version, 'all'); //Стили инфраструктуры
+	wp_enqueue_style("animation_style", get_template_directory_uri() . "/animation.css", array(), $style_version, 'all'); //Стили инфраструктуры
 
 	// Подключение скриптов
 

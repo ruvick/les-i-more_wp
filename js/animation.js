@@ -1,6 +1,8 @@
 function onEntry(entry) {
     entry.forEach(change => {
       if (change.isIntersecting) {
+        if (change.target.classList.contains("element-show")) return;
+
         change.target.classList.add('element-show');
 
         if (change.target.classList.contains("anim_pl_nadp")) {
@@ -8,7 +10,7 @@ function onEntry(entry) {
         }
         
         if (change.target.classList.contains("anim_preim")) {
-            gsap.from(".anim_preim", { opacity: 0, duration: 4, delay:1})
+            gsap.to(".anim_preim", { opacity: 1, y:10, duration: 1})
         }
       }
     });
