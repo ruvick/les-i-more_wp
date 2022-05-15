@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function init () {
   myMap = new ymaps.Map("map", {
     center:[51.706830092350074,36.106675680394076],
-    zoom: 13,
+    zoom: 10,
     controls: ['fullscreenControl', 'zoomControl']
   }); 
 
