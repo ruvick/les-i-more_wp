@@ -20,11 +20,11 @@ get_header(); ?>
 
         <div class="BtnWrap page-recurring-bg">
           <ul class="BtnWrap__list">
-            <li class="BtnWrap__list-item"><a href="index.html" class="BtnWrap__list-item-link">Главная</a></li>
-            <li class="BtnWrap__list-item"><a href="choose-house.html" class="BtnWrap__list-item-link">Выбрать
+            <li class="BtnWrap__list-item"><a href="<? bloginfo("url"); ?>" class="BtnWrap__list-item-link">Главная</a></li>
+            <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(14);?>" class="BtnWrap__list-item-link">Выбрать
                 дом</a>
             </li>
-            <li class="BtnWrap__list-item"><a href="ipoteka.html" class="BtnWrap__list-item-link">Ипотека</a>
+            <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(10);?>" class="BtnWrap__list-item-link">Ипотека</a>
             </li>
           </ul>
         </div>

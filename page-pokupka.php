@@ -20,8 +20,8 @@ get_header(); ?>
 
         <div class="BtnWrap page-recurring-bg">
           <ul class="BtnWrap__list">
-            <li class="BtnWrap__list-item"><a href="#" class="BtnWrap__list-item-link">Условия покупки</a></li>
-            <li class="BtnWrap__list-item"><a href="ipoteka.html" class="BtnWrap__list-item-link">Ипотека</a></li>
+            <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(8);?>" class="BtnWrap__list-item-link">Условия покупки</a></li> 
+            <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(10);?>" class="BtnWrap__list-item-link">Ипотека</a></li>
             <li class="BtnWrap__list-item"><a href="#" class="BtnWrap__list-item-link">Рассрочка</a></li>
           </ul>
         </div>
