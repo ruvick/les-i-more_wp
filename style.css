@@ -3843,7 +3843,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -webkit-box-direction: reverse;
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .title-under:before {
@@ -6535,12 +6535,24 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     padding-top: 45px !important;
   }
 
-  .page-recurring__img {
+  .page-recurring__img-winner {
     display: none;
   }
 
   .contactsNav-block {
     padding: 35px;
+  }
+
+  .page-recurring__img {
+    margin-top: 25px;
+  }
+
+  .page-recurring__content-title br {
+    display: none;
+  }
+
+  .page-recurring__img-ipoteka {
+    display: none;
   }
 }
 
@@ -6931,7 +6943,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   }
 
   .BtnWrap {
-    padding: 5px 35px 5px 25px;
+    padding: 5px 25px 5px 20px;
   }
 }
 

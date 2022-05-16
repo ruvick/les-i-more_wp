@@ -41,7 +41,7 @@ get_header(); ?>
 
       <div class="page-recurring__column">
 
-        <div class="page-recurring__img">
+        <div class="page-recurring__img page-recurring__img-winner">
           <picture><source srcset="<?php echo get_template_directory_uri();?>/img/winner.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/winner.jpg?_v=1652295772944" alt=""></picture>
         </div>
 
