@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: Страница Условия покупки
+Template Name: Страница Рассрочка
 Template Post Type: page
 */
 
@@ -28,14 +28,9 @@ get_header(); ?>
 
         <div class="page-recurring__content purchase-content">
 
-          <h1 class="page-recurring__content-title title-under">Эскроу</h1>
+          <h1 class="page-recurring__content-title title-under"><?php the_title();?></h1> 
           <p class="page-recurring__content-subtitle">
-            Новая схема оформления покупки в новостройке предполагает открытие специального счета в банке, куда
-            дольщиком будет внесена вся сумма совершения сделки по факту зарегистрированного ДДУ. При этом
-            застройщик
-            получит доступ к этим средствам только после сдачи указанного в ДДУ объекта в эксплуатацию. Это
-            позволит
-            покупателю исключить возможные риски и полностью обезопасить свои вложения.
+          <?php the_content();?>
           </p>
 
         </div>
@@ -54,7 +49,7 @@ get_header(); ?>
 
     <div class="page-recurring__row purchase__row">
 
-      <h3 class="page-recurring__content-title title-under">Процедура покупки</h3>
+      <!-- <h3 class="page-recurring__content-title title-under">Процедура покупки</h3>
 
       <ul class="page-recurring__row-list">
         <li class="page-recurring__row-list-item"><span>1</span>
@@ -87,7 +82,7 @@ get_header(); ?>
           просмотр дома и
           получение ключей
         </li>
-      </ul>
+      </ul> -->
 
     </div>
 
