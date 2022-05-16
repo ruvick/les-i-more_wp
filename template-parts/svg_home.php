@@ -138,7 +138,7 @@
                   <td><? echo $h->etazgey ?></td>
                   <td><? echo $h->ploshad ?></td>
                   <td><span class = "price_formator"><? echo $h->price ?></span></td>
-                  <td><a href="#callback" class="btn _popup-link">Купить</a></td>
+                  <td><a href="#callback" class="popup-podbor__table-btn btn _popup-link">Купить</a></td>
                 </tr>
             <?
               }
