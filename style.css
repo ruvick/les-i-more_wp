@@ -5158,7 +5158,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   max-width: 850px;
   height: 562px;
   margin-left: auto;
-  border: 1px solid #000;
 }
 
 .page-recurring__content {
@@ -5802,7 +5801,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .sidebar-menu__contacts {
     padding: 162px 30px 153px 30px;
   }
-  
+
   .sidebar-menu__navigation {
     padding: 80px 30px 30px 100px;
   }
@@ -5819,7 +5818,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     flex: 0 1 50%;
   }
 
-  .ecology__info-card-img img { 
+  .ecology__info-card-img img {
     max-width: unset;
     width: auto;
   }
@@ -6219,6 +6218,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .sidebar-menu__choose-house-link {
     display: none;
   }
+
   .big-number,
   .ecology__big-number,
   .location__big-number {
@@ -6258,7 +6258,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     height: unset;
     margin-right: unset;
     margin: 0 auto 20px auto;
-    
+
   }
 
   .developer__row {
@@ -6291,7 +6291,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
 
-  
+
   .header__logo {
     margin-right: 20px;
   }
@@ -6601,7 +6601,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     margin-bottom: 10px;
   }
 
-  .ecology__ImgBlock .ecology__ImgBlock-item:last-child{
+  .ecology__ImgBlock .ecology__ImgBlock-item:last-child {
     display: none;
   }
 
@@ -6623,7 +6623,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .ecology__info-block-item-icon_02:before,
   .ecology__info-block-item-icon_01:before {
-    width:95px;
+    width: 95px;
   }
 
   .materials-blcok__descp-subtitle {
@@ -6631,7 +6631,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
     line-height: 1.3;
   }
 
-  .ecology__info-block-item-icon{
+  .ecology__info-block-item-icon {
     margin-right: auto;
     margin-bottom: 20px;
   }
@@ -6712,6 +6712,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__advantagesBlock-img {
     height: 230px;
   }
+
   .developer__descp-title,
   .title {
     font-size: 36px;
@@ -6721,7 +6722,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .sidebar-menu__navigation {
     padding: 30px 30px 30px 30px;
   }
-  
+
   .sidebar-menu__navigation {
     flex: 0 0 80%;
   }
@@ -6906,12 +6907,15 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   .location__navigation-imagesBlock-link {
     font-size: 16px;
   }
-  .developer__descp-title, .title {
+
+  .developer__descp-title,
+  .title {
     font-size: 36px;
     line-height: 1;
   }
 
-  .developer__descp-title, .title {
+  .developer__descp-title,
+  .title {
     font-size: 28px;
   }
 
