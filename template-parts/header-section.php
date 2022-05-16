@@ -98,7 +98,7 @@
 				лес
 			</h2>
 		</div>
-		<a href="choose-house.html" class="sidebar-menu__choose-house-link choose-house-link btn">Выбрать дом</a>
+		<a href="<?php echo get_permalink(14);?>" class="sidebar-menu__choose-house-link choose-house-link btn">Выбрать дом</a> 
 		<a href="tel:+74712543488" class="sidebar-menu__phone contacts__phone">+7 (4712) 54-34-88</a>
 	</div>
 
