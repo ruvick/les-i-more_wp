@@ -5140,7 +5140,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   flex: 1 1 auto;
   padding-left: 87px;
   padding-bottom: 60px;
-  padding: 255px 0 145px 87px;
+  padding: 55px 0 145px 87px;
 }
 
 .page-recurring__block-descp-subtitle {
@@ -5633,6 +5633,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .BtnWrap__list {
     max-width: 100%;
+  }
+
+  .contactsNav-block {
+    padding: 70px 35px 100px 35px;
   }
 }
 
@@ -6533,6 +6537,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
   .page-recurring__img {
     display: none;
+  }
+
+  .contactsNav-block {
+    padding: 35px;
   }
 }
 
