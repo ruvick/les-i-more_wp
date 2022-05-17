@@ -115,8 +115,20 @@
 	<div class="popup-podbor__content popup__content">
 		<div class="popup-podbor__body popup__body">
 			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
+      <div id = "win_table_wrapper" class = "win_table_wrapper popup-podbor__inner d-flex">
+		  
+      </div>
+		</div>
+	</div>
+</div>
+<!-- <a href="#podbor" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
 
-			<div class="popup-podbor__inner d-flex">
+<script>
+  let houses_project = <?echo json_encode($project);?>;
+</script>
+
+
+<div style = "display:none" id = "win_table_content" class="popup-podbor__inner d-flex">
 				<table>
  					<thead>
   					<tr>
@@ -146,13 +158,4 @@
 
 					</tbody>  
 				</table>
-			</div>
-
-		</div>
-	</div>
 </div>
-<!-- <a href="#podbor" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
-
-<script>
-  let houses_project = <?echo json_encode($project);?>;
-</script>

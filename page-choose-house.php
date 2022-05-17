@@ -14,7 +14,8 @@ get_header(); ?>
 
 
   <section id="choose-house" class="choose-house">
-    <a href="#podbor" class="selection-icon-block widget-icon _popup-link">
+    <!-- <a href="#podbor" class="selection-icon-block widget-icon _popup-link"> -->
+    <a href="#" id = "podbor_kottedga_btn" class="selection-icon-block widget-icon">
       Подобрать <br>
       коттедж
     </a>

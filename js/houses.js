@@ -42,4 +42,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
           popup_open("houses")
       })
     }
+
+
+    if (document.getElementById("podbor_kottedga_btn"))
+    podbor_kottedga_btn.addEventListener("click", (e) => { 
+      e.preventDefault() 
+      win_table_wrapper.innerHTML = win_table_content.innerHTML
+      popup_open("podbor")
+    })
 })
