@@ -128,7 +128,7 @@
 </script>
 
 
-<div style = "display:none" id = "win_table_content" class="popup-podbor__inner d-flex">
+<div style = "display:none" id = "win_table_content" class="podbor-table-mob popup-podbor__inner d-flex">
 				<table>
  					<thead>
   					<tr>

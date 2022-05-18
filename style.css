@@ -6570,6 +6570,28 @@ table td {
   .page-recurring__img-ipoteka {
     display: none;
   }
+
+  .selection-icon-block,
+  .svg_wrapper svg {
+    display: none;
+  }
+
+  .podbor-table-mob {
+    display: block !important;
+    width: 100%;
+    padding: 35px 15px;
+  }
+
+  .podbor-table-mob table tr {
+    font-size: 14px;
+  }
+
+  .podbor-table-mob .popup-podbor__table-btn {
+    width: 130px;
+    width: auto;
+    font-size: 13px;
+    padding: 10px 15px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -6813,6 +6835,17 @@ table td {
   .BtnWrap {
     padding: 15px 35px 15px 25px;
   }
+
+  .podbor-table-mob .popup-podbor__table-btn {
+    width: auto;
+    height: auto;
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .podbor-table-mob table tr {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -6841,9 +6874,9 @@ table td {
     border-radius: 0 !important;
   }
 
-  .popup-podbor__inner table tr {
+  /* .popup-podbor__inner table tr {
     font-size: 16px;
-  }
+  } */
 
   .popup-podbor__inner table th {
     padding: 5px 0;
@@ -6853,9 +6886,9 @@ table td {
     padding: 5px 0;
   }
 
-  .popup-podbor__inner {
+  /* .popup-podbor__inner {
     width: 950px;
-  }
+  } */
 }
 
 @media (max-width: 414px) {
@@ -6961,6 +6994,15 @@ table td {
   .BtnWrap {
     padding: 5px 25px 5px 20px;
   }
+
+  .podbor-table-mob table tr {
+    font-size: 10px;
+  }
+
+  .podbor-table-mob .popup-podbor__table-btn {
+    font-size: 10px;
+    padding: 5px 3px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -7017,7 +7059,13 @@ table td {
   .BtnWrap__list-item-link {
     font-size: 12px;
   }
+
+  .podbor-table-mob {
+    padding: 35px 5px;
+  }
 }
+
+
 
 ._webp .parallax {
   background: url(img/smart-conven.webp) center/cover no-repeat fixed;
