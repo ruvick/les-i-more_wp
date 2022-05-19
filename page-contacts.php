@@ -69,21 +69,7 @@ get_header(); ?>
 						Посетите наш <br>
 						офис
 					</h2>
-					<p class="page-recurring__block-descp-subtitle">
-						Дружба может приносить намного больше пользы в виде денег, связей и возможностей, если относится к ней
-						по-другому.
-					</p>
-					<p class="page-recurring__block-descp-subtitle">
-						ЖК «Пятницкий» - это сообщество уникальных людей, которые уверенным взглядом смотрят в будущее.
-					</p>
-					<p class="page-recurring__block-descp-subtitle">
-						«Если собрать вместе дюжину человек, с которыми мы проводим бОльшую часть нашего времени, и разделить
-						все их достижения, успехи и проблемы поровну - можно с большой точностью предугадать, что это как раз
-						то, где Вы скорее всего окажетесь очень-очень скоро.
-					</p>
-					<p class="page-recurring__block-descp-subtitle">
-						Если уже не оказались.»
-					</p>
+					<?php the_content(); ?>
 				</div>
 				<div id="mapContacts" class="page-recurring__block-map"></div>
 				<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> 

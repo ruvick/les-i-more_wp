@@ -5149,6 +5149,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 55px 0 145px 87px;
 }
 
+.page-recurring__block-descp p,
 .page-recurring__block-descp-subtitle {
   font-size: 20px;
   line-height: 24px;
