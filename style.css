@@ -4167,6 +4167,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   line-height: 24px;
   text-align: left;
   color: #161615;
+  margin-bottom: 10px;
+}
+
+.developer__descp-subtitle:last-child {
+  margin-bottom: 0;
 }
 
 .choose-house {
