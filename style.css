@@ -4243,6 +4243,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 5px 0;
 }
 
+.BtnWrap__list-item-link.active {
+  border-bottom: 0.4px solid #879026;
+}
+
 .WrapperPage {
   height: 950px;
 }
