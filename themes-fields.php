@@ -203,4 +203,11 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
         Field::make('image', 'contacts_img_2', 'Картинка 2' )->set_width(50)
   ));
 
+  Container::make('post_meta', 'page-pokupka-rassrochka', 'Доп поля')
+  ->show_on_template(array('page-pokupka-rassrochka.php'))
+      ->add_fields(array(   
+        Field::make('image', 'pokupka_rassrochka_img', 'Боковая картинка' )->set_width(100),
+        Field::make('rich_text', 'pokupka_rassrochka_descp', 'Описание, нижний блок' )->set_width(100)
+  ));
+
 ?>
