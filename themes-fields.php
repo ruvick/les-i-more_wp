@@ -207,7 +207,12 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
   ->show_on_template(array('page-pokupka-rassrochka.php'))
       ->add_fields(array(   
         Field::make('image', 'pokupka_rassrochka_img', 'Боковая картинка' )->set_width(100),
-        Field::make('rich_text', 'pokupka_rassrochka_descp', 'Описание, нижний блок' )->set_width(100)
+        Field::make('text', 'pokupka_rassrochka_title', 'Заголовок процедуры' )->set_width(100),
+        Field::make( 'complex', 'pokupka_rassrochka_complex', "Пункты процедуры" )
+      ->add_fields( array(
+        Field::make('text', 'pokupka_rassrochka_complex_number', 'Номер' )->set_width(10),
+        Field::make('text', 'pokupka_rassrochka_complex_text', 'Текст')->set_width(90)        
+      ) )
   ));
 
 ?>

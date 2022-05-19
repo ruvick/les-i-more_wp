@@ -48,7 +48,26 @@ get_header(); ?>
     </div>
 
     <div class="page-recurring__row purchase__row">
-      <?echo carbon_get_post_meta(get_the_ID(),"pokupka_rassrochka_descp"); ?>
+
+      <h3 class="page-recurring__content-title title-under"><?echo carbon_get_post_meta(get_the_ID(),"pokupka_rassrochka_title"); ?></h3>
+
+      <ul class="page-recurring__row-list">
+      <? 
+		    $pokupkaRass = carbon_get_post_meta(get_the_ID(),"pokupka_rassrochka_complex"); 
+	        if ($pokupkaRass) {
+		    $pokupkaRassIndex = 0;
+		      foreach ($pokupkaRass as $item) {
+			?>
+        <li class="page-recurring__row-list-item"><span><? echo $item['pokupka_rassrochka_complex_number']; ?></span>
+        <? echo $item['pokupka_rassrochka_complex_text']; ?>
+        </li>
+			<?
+			  $pokupkaRassIndex++; 
+		      }
+	      }
+	    ?>
+      </ul>
+
     </div>
 
   </div>
