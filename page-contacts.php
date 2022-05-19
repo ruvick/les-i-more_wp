@@ -109,11 +109,11 @@ get_header(); ?>
     		balloonContent: '<div class="map-hint"><?php echo carbon_get_theme_option('text_map') ?>', },{
     		iconLayout: 'default#image',
         // Путь до нашей картинки
-        iconImageHref:  '<?php bloginfo("template_url"); ?>/img/icons/map-marker.svg',  
+        iconImageHref:  '<?php bloginfo("template_url"); ?>/img/icons/map-contacts.svg',  
         // Размеры иконки
-        iconImageSize: [30, 35],
+        iconImageSize: [80, 85],
         // Смещение верхнего угла относительно основания иконки
-        iconImageOffset: [-25, -100]
+        iconImageOffset: [-45, -85]
       });
 
     	var clusterer = new ymaps.Clusterer({
