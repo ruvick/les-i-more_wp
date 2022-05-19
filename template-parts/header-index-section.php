@@ -86,6 +86,14 @@
 		<h5 class="sidebar-menu__navigation-title"><a href="<?php echo get_permalink(12);?>"
 				class="sidebar-menu__navigation-title-link">Контакты</a>
 		</h5>
+		<ul class="sidebar-menu__navigation-list">
+			<li class="sidebar-menu__navigation-list-item">
+				<a href="tel:+74712543488" class="sidebar-menu__navigation-list-item-link">+7 (4712) 54-34-88</a>
+			</li>
+			<li class="sidebar-menu__navigation-list-item">
+				<a href="mailto:pyatnitsky46@gmail.com" class="sidebar-menu__navigation-list-item-link">pyatnitsky46@gmail.com</a>
+			</li>
+		</ul>
 	</div>
 
 	<div class="sidebar-menu__contacts">

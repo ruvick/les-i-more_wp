@@ -39,22 +39,20 @@
 		<h5 class="sidebar-menu__navigation-title">О проекте</h5>
 		<ul class="sidebar-menu__navigation-list">
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="<?echo get_bloginfo("url")?>/#location" class="sidebar-menu__navigation-list-item-link">
-					Инновационный поселок
-				</a>
+				<a href="<?echo get_bloginfo("url")?>/#location" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">Инновационный поселок</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="<?echo get_bloginfo("url")?>/#ecology" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?echo get_bloginfo("url")?>/#ecology" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Экология и безопасность
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="<?echo get_bloginfo("url")?>/#materials" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?echo get_bloginfo("url")?>/#materials" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Качество материалов
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="<?echo get_bloginfo("url")?>/#club-buyers" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?echo get_bloginfo("url")?>/#club-buyers" onclick = "cloaseMenu()" class="sidebar-menu__navigation-list-item-link">
 					Закрытый клуб покупателей
 				</a>
 			</li>
@@ -80,7 +78,7 @@
 				</a>
 			</li>
 			<li class="sidebar-menu__navigation-list-item">
-				<a href="#" class="sidebar-menu__navigation-list-item-link">
+				<a href="<?php echo get_permalink(19);?>" class="sidebar-menu__navigation-list-item-link">
 					Рассрочка
 				</a>
 			</li>
@@ -88,6 +86,14 @@
 		<h5 class="sidebar-menu__navigation-title"><a href="<?php echo get_permalink(12);?>"
 				class="sidebar-menu__navigation-title-link">Контакты</a>
 		</h5>
+		<ul class="sidebar-menu__navigation-list">
+			<li class="sidebar-menu__navigation-list-item">
+				<a href="tel:+74712543488" class="sidebar-menu__navigation-list-item-link">+7 (4712) 54-34-88</a>
+			</li>
+			<li class="sidebar-menu__navigation-list-item">
+				<a href="mailto:pyatnitsky46@gmail.com" class="sidebar-menu__navigation-list-item-link">pyatnitsky46@gmail.com</a>
+			</li>
+		</ul>
 	</div>
 
 	<div class="sidebar-menu__contacts">
@@ -99,7 +105,7 @@
 				лес
 			</h2>
 		</div>
-		<a href="<?php echo get_permalink(14);?>" class="sidebar-menu__choose-house-link choose-house-link btn">Выбрать дом</a> 
+		<a href="<?php echo get_permalink(14);?>" class="sidebar-menu__choose-house-link choose-house-link btn">Выбрать дом</a>
 		<a href="tel:+74712543488" class="sidebar-menu__phone contacts__phone">+7 (4712) 54-34-88</a>
 	</div>
 
