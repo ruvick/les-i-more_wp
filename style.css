@@ -4599,6 +4599,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-family: "Lato";
 }
 
+.location__advantagesBlock-descp p,
 .location__advantagesBlock-descp-paragraph {
   color: #fff;
   margin-bottom: 25px;

@@ -134,30 +134,7 @@
 
 			<div class="location__advantagesBlock-descp">
 				<div class = "element-animation anim_preim">
-
-				
-					<p class="location__advantagesBlock-descp-paragraph ">
-						Дома с террасами 120 м²;
-					</p>
-					<p class="location__advantagesBlock-descp-paragraph">
-						Широкий ассортимент планировочных решений квартир – от 1- до 5-комнатных, площадь квартир – от 46,2 до
-						175,8 м²;
-					</p>
-					<p class="location__advantagesBlock-descp-paragraph">
-						Количество квартир на этаже – от 3 до 6;
-					</p>
-					<p class="location__advantagesBlock-descp-paragraph">
-						Удобные кухни-гостиные до 33,6 м²;
-					</p>
-					<p class="location__advantagesBlock-descp-paragraph">
-						Возможность установки дровяных каминов в квартирах на последнем этаже;
-					</p>
-					<p class="location__advantagesBlock-descp-paragraph">
-						Квартиры с master bedroom с собственной гардеробной и ванной комнатой;
-					</p>
-					<p class="location__advantagesBlock-descp-paragraph">
-						Теплые лоджии в каждой квартире.
-					</p>
+					<?php echo carbon_get_theme_option('benefits_planning'); ?>
 				</div>
 			</div>
 
@@ -287,62 +264,23 @@
 	</div>
 
 	<div class="_container">
-
+	<? 
+		$materialQ = carbon_get_theme_option('material_quality'); // Вывод из настроек темы
+	if ($materialQ) {
+		$materialQIndex = 0;
+		foreach ($materialQ as $item) {
+			?>
 		<div class="materials-blcok__info-card element-animation anim_preim">
 			<div class="materials-blcok__info-card-img">
-				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/01.jpg?_v=1652295772944" alt=""></picture>
+				<img src="<?php echo wp_get_attachment_image_src($item['material_quality_img'], 'large')[0]; ?>" alt=""> 			
 			</div>
-			<p class="materials-blcok__info-card-text">
-				Мягкая модифицированная черепица.
-				Срок эксплуатации значительно превосходит аналоги.
-				Улучшенная звукоизоляция (не слышно дождь)
-				Долговечность более 50 лет (заводская гарантия)
-			</p>
+			<p class="materials-blcok__info-card-text"><? echo $item['material_quality_text']; ?></p>
 		</div>
-
-		<div class="materials-blcok__info-card  element-animation anim_preim">
-			<div class="materials-blcok__info-card-img">
-				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/02.jpg?_v=1652295772944" alt=""></picture>
-			</div>
-			<p class="materials-blcok__info-card-text">
-				Керамический кирпич (пожаростойкий)
-				У нас выполнен теплотехнический расчёт, на основании которого правильно подобран стеновой материал.
-				Хороший климат в доме ВСЕГДА.
-			</p>
-		</div>
-
-		<div class="materials-blcok__info-card  element-animation anim_preim">
-			<div class="materials-blcok__info-card-img">
-				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/03.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/03.jpg?_v=1652295772944" alt=""></picture>
-			</div>
-			<p class="materials-blcok__info-card-text">
-				Мы не оштукатуриваем фасады домов, так как
-				у штукатурки срок службы 10 лет, а у облицовочного
-				кирпича 75 лет (на основе СНИПа)
-			</p>
-		</div>
-
-		<div class="materials-blcok__info-card  element-animation anim_preim">
-			<div class="materials-blcok__info-card-img">
-				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/04.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/04.jpg?_v=1652295772944" alt=""></picture>
-			</div>
-			<p class="materials-blcok__info-card-text">
-				Окна трёхкамерный энергосберегающий стеклопакет
-				с дорогой качественной ламинацией. С дорогой
-				немецкой фурнитурой.
-			</p>
-		</div>
-
-		<div class="materials-blcok__info-card  element-animation anim_preim">
-			<div class="materials-blcok__info-card-img">
-				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/materials/05.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/materials/05.jpg?_v=1652295772944" alt=""></picture>
-			</div>
-			<p class="materials-blcok__info-card-text">
-				Фундамент ленточного типа и столбчатого под
-				отдельно стоящие колонны.
-			</p>
-		</div>
-
+			<?
+			$materialQIndex++; 
+		}
+	}
+	?>
 	</div>
 
 </section>
