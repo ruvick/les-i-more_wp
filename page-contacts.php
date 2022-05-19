@@ -53,15 +53,14 @@ get_header(); ?>
 				</div>
 
 				<div class="page-recurring__img">
-					<picture><source srcset="<?php echo get_template_directory_uri();?>/img/contacts-02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/contacts-02.jpg?_v=1652295772944" alt=""></picture>
+					<img src="<?php echo wp_get_attachment_image_src(carbon_get_post_meta(get_the_ID(),"contacts_img_1"), 'full')[0];?>" alt=""> 				
 				</div>
-
 			</div>
 
 			<div class="page-recurring__column">
 
 				<div class="page-recurring__img">
-					<picture><source srcset="<?php echo get_template_directory_uri();?>/img/contacts-01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/contacts-01.jpg?_v=1652295772944" alt="Картинка блока"></picture>
+					<img src="<?php echo wp_get_attachment_image_src(carbon_get_post_meta(get_the_ID(),"contacts_img_2"), 'full')[0];?>" alt=""> 				
 				</div>
 
 				<div class="page-recurring__block-descp">

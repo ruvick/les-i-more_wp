@@ -196,27 +196,11 @@ Container::make( 'theme_options', __( 'Настройки темы', 'crb' ) )
 
   // ));
 
-  // Container::make('post_meta', 'page-gallery-tkaney-obivki-sidenii', 'Характеристики записи')
-  // ->show_on_template(array('page-gallery-tkaney-obivki-sidenii.php'))
-  //     ->add_fields(array(   
-  //     Field::make( 'complex', 'galery_velours', "Велюр" )
-  //     ->add_fields( array(
-  //       Field::make('image', 'galery_velours_img', 'Изображение' )->set_width(30),
-  //       Field::make('text', 'galery_velours_img_alt', 'alt и title')->set_width(30)        
-  //     ) ),
-
-  //     Field::make( 'complex', 'galery_eco', "Эко-Кожа" )
-  //     ->add_fields( array(
-  //       Field::make('image', 'galery_eco_img', 'Изображение' )->set_width(30),
-  //       Field::make('text', 'galery_eco_img_alt', 'alt и title')->set_width(30)        
-  //     ) ),
-
-  //     Field::make( 'complex', 'galery_leather', "Кожа" )
-  //     ->add_fields( array(
-  //       Field::make('image', 'galery_leather_img', 'Изображение' )->set_width(30),
-  //       Field::make('text', 'galery_leather_img_alt', 'alt и title')->set_width(30)        
-  //     ) ),
-
-  // ));
+  Container::make('post_meta', 'page-contacts', 'Доп поля')
+  ->show_on_template(array('page-contacts.php'))
+      ->add_fields(array(   
+        Field::make('image', 'contacts_img_1', 'Картинка 1' )->set_width(50),
+        Field::make('image', 'contacts_img_2', 'Картинка 2' )->set_width(50)
+  ));
 
 ?>
