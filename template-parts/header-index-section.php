@@ -12,7 +12,9 @@
 						Общероссийский ежегодный <br> конкурс
 					</p>
 				</a>
-				<a href="<? bloginfo("url"); ?>" class="header__logo-les"></a>
+				<a href="<? bloginfo("url"); ?>" class="header__logo-les">
+					<p class="header__logo-les-text">на главную</p>	
+				</a>
 			</div>
 
 			<div class="header__navigation">
