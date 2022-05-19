@@ -9,8 +9,7 @@
 				<a href="<?php echo get_permalink(16);?>" class="header__block-logo-text">
 					<h6 class="header__block-logo-text-title">Регионы - <br> устойчивое развитие</h6>
 					<p class="header__block-logo-text-subtitle">
-						Общероссийский ежегодный комплекс.
-						Организационный комитет
+						Общероссийский ежегодный <br> конкурс
 					</p>
 				</a>
 				<a href="<? bloginfo("url"); ?>" class="header__logo-les"></a>

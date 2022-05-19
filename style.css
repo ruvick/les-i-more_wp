@@ -3308,6 +3308,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .header__block-logo-text {
+  flex: 0 0 290px;
   position: relative;
   color: #fff;
   padding-left: 35px;
