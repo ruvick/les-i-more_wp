@@ -28,7 +28,7 @@ get_header(); ?>
 							<p>Адрес</p>
 							<span>
 								Курск, ул. 50 лет Октября, <br>
-								дом 100
+								дом 100 (зеленая вывеска Лес&Море)
 							</span>
 						</li>
 						<li class="contactsNav-block__list-item">
@@ -67,7 +67,7 @@ get_header(); ?>
 				<div class="page-recurring__block-descp">
 					<h2 class="page-recurring__block-descp-title title-under">
 						Посетите наш <br>
-						офис продаж
+						офис
 					</h2>
 					<p class="page-recurring__block-descp-subtitle">
 						Дружба может приносить намного больше пользы в виде денег, связей и возможностей, если относится к ней

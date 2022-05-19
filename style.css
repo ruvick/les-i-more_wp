@@ -472,23 +472,23 @@ textarea.input {
 }
 
 ::-webkit-input-placeholder {
-  color: #8584847a;
+  color: #161615;
 }
 
 ::-moz-placeholder {
-  color: #8584847a;
+  color: #161615;
 }
 
 /* Firefox 19+ */
 
 :-moz-placeholder {
-  color: #8584847a;
+  color: #161615;
 }
 
 /* Firefox 18- */
 
 :-ms-input-placeholder {
-  color: #8584847a;
+  color: #161615;
 }
 
 input::-webkit-outer-spin-button,
@@ -5421,17 +5421,20 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 }
 
 .popup__notific {
+  line-height: 1.2;
   margin-bottom: 35px;
 }
 
 .popup__form-input {
   height: 46px;
   background: #F6F8F1;
-  border: 1px solid #737373;
+  border: none;
   margin-bottom: 25px;
 }
 
 .popup__policy {
+  font-size: 18px;
+  line-height: 1.2;
   margin-bottom: 25px;
 }
 

@@ -48,6 +48,14 @@
     <h6 class="contacts__menu-title">
       <a href="<?php echo get_permalink(12);?>" class="contacts__menu-title-link">КОНТАКТЫ</a>
     </h6>
+    <ul class="contacts__menu-list">
+      <li class="contacts__menu-list-item">
+        <a href="tel:+74712543488" class="contacts__menu-list-item-link">+7 (4712) 54-34-88</a>
+      </li>
+      <li class="contacts__menu-list-item">
+        <a href="mailto:pyatnitsky46@gmail.com" class="contacts__menu-list-item-link">pyatnitsky46@gmail.com</a>
+      </li>
+    </ul>
   </div>
 
 </div>
