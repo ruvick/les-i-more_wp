@@ -65,7 +65,7 @@
   <a href="<?php echo get_permalink(12);?>" class="contacts__block-img-card d-flex">
     <div class="contacts__block-img-card-text">Наш офис</div>
     <div class="contacts__block-img-card-images">
-      <picture><source srcset="<?php echo get_template_directory_uri();?>/img/contacts-img.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/contacts-img.jpg?_v=1652295772944" alt=""></picture>
+      <picture><source srcset="<?php echo get_template_directory_uri();?>/img/contacts-img-1.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/contacts-img-1.jpg?_v=1652295772944" alt=""></picture>
     </div>
   </a>
 </div>
