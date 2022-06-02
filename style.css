@@ -4935,12 +4935,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .materials-blcok__info-card-img {
+  position: relative;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 425px;
   flex: 0 0 425px;
   height: 140px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-right: 110px;
+}
+
+.materials-blcok__info-card-img::after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  z-index: -1;
+  width: 98px;
+  height: 98px;
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5OC45MDUiIGhlaWdodD0iOTguOTA1IiB2aWV3Qm94PSIwIDAgOTguOTA1IDk4LjkwNSI+DQogIDxyZWN0IGlkPSLQn9GA0Y/QvNC+0YPQs9C+0LvRjNC90LjQul8zNCIgZGF0YS1uYW1lPSLQn9GA0Y/QvNC+0YPQs9C+0LvRjNC90LjQuiAzNCIgd2lkdGg9Ijk4LjkwNSIgaGVpZ2h0PSI5OC45MDUiIGZpbGw9IiM4NzkwMjYiLz4NCjwvc3ZnPg0K');
 }
 
 .materials-blcok__info-card-text {
