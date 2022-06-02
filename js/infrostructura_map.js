@@ -62,7 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
   function get_map_pin(cat) {
     if (cat == "Образование") return "pin_school.svg";
     if (cat == "Торговые центры") return "pin_shop.svg";
-    if (cat == "Фитнес") return "pin_sport.svg";
+    if (cat == "Фитнес и спорт") return "pin_sport.svg";
+    if (cat == "Городские объекты") return "pin_city.svg";
   }
 
   function filter_object() {
