@@ -365,22 +365,22 @@ get_header(); ?>
       <li class="page-recurring__row-list-item"><span>1</span>
         Оформите заявку <br>
         через сайт или в <br>
-        офисе продаж;
+        офисе ЖК «Пятницкий Лес»
       </li>
       <li class="page-recurring__row-list-item"><span>3</span>
         Поможем заполнить заявку <br>
         на ипотечный кредит и <br>
-        получить одобрение в банке;
+        получить одобрение в банке
       </li>
       <li class="page-recurring__row-list-item"><span>2</span>
         Подберем самую выгодную <br>
         программу банка-партнера и <br>
-        сделаем необходимые расчеты;
+        сделаем необходимые расчеты
       </li>
       <li class="page-recurring__row-list-item"><span>4</span>
         Организуем сделку и <br>
         подписание договора <br>
-        в банке.
+        в банке
       </li>
     </ul>
 

@@ -20,7 +20,7 @@ get_header(); ?>
 
       global $wpdb;
       $cats = $wpdb->get_results("SELECT `cat`, count(*) as `count` FROM `wp_infra` GROUP BY `cat`");
-      $objects = $wpdb->get_results("SELECT * FROM `wp_infra`");
+      $objects = $wpdb->get_results("SELECT * FROM `wp_infra` ORDER BY `order_s`");
 
 ?>
 
