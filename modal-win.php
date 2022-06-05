@@ -85,6 +85,8 @@
 
 					<div class="popup-houses__price">23 538 706 руб</div>
 
+					<a href="№" class="pasport_lnk">Скачать паспорт объекта</a>
+
 					<a href="#callback" class="popup-houses__btn btn _popup-link">Записатся на просмотр</a>
 				</div>
 			</div>

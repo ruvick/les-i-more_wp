@@ -5522,7 +5522,7 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 }
 
 .popup-houses__img img {
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .popup-houses__title {
@@ -5540,9 +5540,10 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
 .popup-houses__charect-block-row {
   justify-content: space-between;
-  padding: 8px 0;
+  padding: 5px 0;
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .popup-houses__charect-block-row:last-child {
@@ -5621,7 +5622,22 @@ table td {
   margin: 0;
 }
 
+.pasport_lnk {
+  margin-bottom: 20px;
+  display: inline-block;
+  line-height: 41px;
+}
 
+.pasport_lnk::before {
+  content: "";
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url(img/icons/house-paln.svg);
+  background-size: cover;
+  background-position: center;
+}
 
 
 

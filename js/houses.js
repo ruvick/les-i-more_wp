@@ -11,12 +11,30 @@ document.addEventListener('DOMContentLoaded', (e) => {
           let price = home_wrapper[i].dataset.price
           let element = houses_project[type]
           let img = ""
-          let html = "";
+          let pasport = ""
+          let pname = ""
+          let html = ""
           for (var k in element){
             if (k == "img") {
               img = element[k]
               continue
             }
+
+            if (k == "pasport") {
+              pasport = element[k]
+              continue
+            }
+
+            if (k == "price"){
+              price = element[k]
+              continue
+            }
+
+            if (k == "pname"){
+              pname = element[k]
+              continue
+            }
+            
             html  += '<div class="popup-houses__charect-block-row d-flex">'
             html  += '<div class="popup-houses__charect-block-cell">'+k+':</div>'
             html  += '<div class="popup-houses__charect-block-cell">'+element[k]+'</div>'
@@ -28,9 +46,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
           if (document.getElementById("popup-houses__charect-block"))
           {
               document.getElementById("popup-houses__charect-block").innerHTML = html
-              document.querySelector(".popup-houses h2").innerHTML = "Коттедж № "+nomerdoma
+              document.querySelector(".popup-houses h2").innerHTML = pname
               document.querySelector(".popup-houses .popup-houses__identifier").innerHTML = "# "+hid
-              document.querySelector(".popup-houses .popup-houses__price").innerHTML = "<span class = 'price_formator'>"+price+"</span> руб"
+              document.querySelector(".popup-houses .popup-houses__price").innerHTML = "от <span class = 'price_formator'>"+price+"</span> руб"
+              document.querySelector(".popup-houses .pasport_lnk").href = pasport
               console.log(img)
               document.querySelector(".popup-houses img").src = img
 

@@ -8,7 +8,10 @@
       "Площадь кухни + гостинная" => "47,64 м²",
       "Колличество спален" => 3,
       "Земельный участок" => "10 соток",
-      "img" => get_template_directory_uri()."/img/houses_type/kt1.jpg"
+      "img" => get_template_directory_uri()."/img/houses_type/kt1.jpg",
+      "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_136.pdf",
+      "pname" => "Дом 136 м²",
+      "price" => 6890000
     ],
     "Дом 131" => [
       "Этажей" => 1,
@@ -18,7 +21,10 @@
       "Площадь кухни + гостинная" => "55,69 м²",
       "Колличество спален" => 3,
       "Земельный участок" => "10 соток",
-      "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg"
+      "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg",
+      "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_131.pdf",
+      "pname" => "Дом 131 м²",
+      "price" => 6490000
     ],
 
     "Дом 93" => [
@@ -29,7 +35,10 @@
       "Площадь кухни + гостинная" => "17,69 м²",
       "Колличество спален" => 3,
       "Земельный участок" => "10 соток",
-      "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg"
+      "img" => get_template_directory_uri()."/img/houses_type/h_93.jpg",
+      "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_93.pdf",
+      "pname" => "Дом 93 м²",
+      "price" => 4590000
     ],
 
     "Дом 70" => [
@@ -40,7 +49,10 @@
       "Площадь кухни + гостинная" => "24,7 м²",
       "Колличество спален" => 2,
       "Земельный участок" => "10 соток",
-      "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg"
+      "img" => get_template_directory_uri()."/img/houses_type/h_70.jpg",
+      "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_70.pdf",
+      "pname" => "Дом 70 м²",
+      "price" => 3840000
     ],
 
     "Таунхаус" => [
@@ -51,7 +63,10 @@
       "Площадь кухни + гостинная" => "31,8 м²",
       "Колличество спален" => 4,
       "Земельный участок" => "2 сотки",
-      "img" => get_template_directory_uri()."/img/houses_type/q.jpg"
+      "img" => get_template_directory_uri()."/img/houses_type/q.jpg",
+      "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_town.pdf",
+      "pname" => "Таунхаус",
+      "price" => 6890000
     ],
 
     "Дуплекс" => [
@@ -62,7 +77,10 @@
       "Площадь кухни + гостинная" => "41,6/31,87м²",
       "Колличество спален" => 2,
       "Земельный участок" => "5 сотки",
-      "img" => get_template_directory_uri()."/img/houses_type/dup.jpg"
+      "img" => get_template_directory_uri()."/img/houses_type/dup.jpg",
+      "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_dup.pdf",
+      "pname" => "Дуплекс",
+      "price" => 6890000
     ],
     "Усадьба" => [
       "Площадь" => "278,4 м²",
@@ -469,9 +487,9 @@
                 <tr>
                   <td><? echo $h->home_number ?></td>
                   <td><? echo $h->ulitsa ?></td>
-                  <td><? echo $h->etazgey ?></td>
-                  <td><? echo $h->ploshad ?></td>
-                  <td><span class = "price_formator"><? echo $h->price ?></span></td>
+                  <td><? echo $project[$h->type]["Этажей"] ?></td>
+                  <td><? echo $project[$h->type]["Общая площадь помещений"] ?></td>
+                  <td><span class = "price_formator"><? echo $project[$h->type]["price"] ?></span></td>
                   <td><a href="#callback" class="popup-podbor__table-btn btn _popup-link">Купить</a></td>
                 </tr>
             <?
