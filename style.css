@@ -5572,6 +5572,8 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
 
 .popup-podbor__inner {
   padding: 35px;
+  height: 100%;
+  overflow: auto;
 }
 
 .popup-podbor__inner table {
