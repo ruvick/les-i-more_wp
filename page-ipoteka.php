@@ -24,7 +24,7 @@ get_header(); ?>
           <ul class="BtnWrap__list">
             <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(8);?>" class="BtnWrap__list-item-link <?php if (get_the_ID() == 8) echo "active";?>">Условия покупки</a></li> 
             <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(10);?>" class="BtnWrap__list-item-link <?php if (get_the_ID() == 10) echo "active";?>">Ипотека</a></li>
-            <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(19);?>" class="BtnWrap__list-item-link <?php if (get_the_ID() == 19) echo "active";?>">Рассрочка</a></li>
+            <li class="BtnWrap__list-item"><a href="<?php echo get_permalink(19);?>" class="BtnWrap__list-item-link BtnWrap__list-item-link_none <?php if (get_the_ID() == 19) echo "active";?>">Рассрочка</a></li>
           </ul>
         </div>
 

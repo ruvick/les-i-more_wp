@@ -41,9 +41,9 @@
       <li class="contacts__menu-list-item">
         <a href="<?php echo get_permalink(10);?>" class="contacts__menu-list-item-link">Ипотека</a>
       </li>
-      <li class="contacts__menu-list-item">
+      <!-- <li class="contacts__menu-list-item">
         <a href="<?php echo get_permalink(19);?>" class="contacts__menu-list-item-link">Рассрочка</a>
-      </li>
+      </li> -->
     </ul>
     <h6 class="contacts__menu-title">
       <a href="<?php echo get_permalink(12);?>" class="contacts__menu-title-link">КОНТАКТЫ</a>

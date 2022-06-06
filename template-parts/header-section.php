@@ -77,11 +77,11 @@
 					Ипотека
 				</a>
 			</li>
-			<li class="sidebar-menu__navigation-list-item">
+			<!-- <li class="sidebar-menu__navigation-list-item">
 				<a href="<?php echo get_permalink(19);?>" class="sidebar-menu__navigation-list-item-link">
 					Рассрочка
 				</a>
-			</li>
+			</li> -->
 		</ul>
 		<h5 class="sidebar-menu__navigation-title"><a href="<?php echo get_permalink(12);?>"
 				class="sidebar-menu__navigation-title-link">Контакты</a>
