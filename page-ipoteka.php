@@ -67,13 +67,13 @@ get_header(); ?>
             дома
           </h6>
           <div class="form__line">
-            <select name="form[]" class="calculator-form">
-              <option value="1" selected>3 840 000 - 70 кв черновая отделка</option>
-              <option value="2">5 340 000 - 70 кв отделка "Комфорт +"</option>
-              <option value="3">4 590 000 - 93 кв черновая отделка</option>
-              <option value="4">6 090 000 - 93 кв отделка "Комфорт +"</option>
-              <option value="5">6 490 000 - 131 кв черновая отделка</option>
-              <option value="5">8 490 000 - 131 кв отделка "Комфорт +"</option>
+            <select name="form[]" id = "select_home_price" class="calculator-form ipt_select">
+              <option value="3840000" selected>3 840 000 - 70 м² черновая отделка</option>
+              <option value="5340000">5 340 000 - 70 м² отделка "Комфорт +"</option>
+              <option value="4590000">4 590 000 - 93 м² черновая отделка</option>
+              <option value="6090000">6 090 000 - 93 м² отделка "Комфорт +"</option>
+              <option value="6490000">6 490 000 - 131 м² черновая отделка</option>
+              <option value="8490000">8 490 000 - 131 м² отделка "Комфорт +"</option>
             </select>
           </div>
         </div>
@@ -84,13 +84,13 @@ get_header(); ?>
             взнос
           </h6>
           <div class="form__line">
-            <select name="form[]" class="calculator-form">
-              <option value="1" selected>10%</option>
-              <option value="2">20%</option>
-              <option value="3">30%</option>
-              <option value="4">40%</option>
-              <option value="5">50%</option>
-              <option value="6">60%</option>
+            <select id = "select_home_vznos" name="form[]" class="calculator-form ipt_select">
+              <option value="10" selected>10%</option>
+              <option value="20">20%</option>
+              <option value="30">30%</option>
+              <option value="40">40%</option>
+              <option value="50">50%</option>
+              <option value="60">60%</option>
             </select>
           </div>
         </div>
@@ -101,13 +101,13 @@ get_header(); ?>
             кредита
           </h6>
           <div class="form__line">
-            <select name="form[]" class="calculator-form">
-              <option value="1" selected>5 лет</option>
-              <option value="2">10 лет</option>
-              <option value="3">15 лет</option>
-              <option value="4">20 лет</option>
-              <option value="5">25 лет</option>
-              <option value="6">30 лет</option>
+            <select id = "select_home_srok" name="form[]" class="calculator-form ipt_select">
+              <option value="5" selected>5 лет</option>
+              <option value="10">10 лет</option>
+              <option value="15">15 лет</option>
+              <option value="20">20 лет</option>
+              <option value="25">25 лет</option>
+              <option value="30">30 лет</option>
             </select>
           </div>
         </div>
@@ -118,7 +118,7 @@ get_header(); ?>
             кредита
           </h6>
           <div class="calculator-form__column-total">
-            15 000 000 руб
+            <span id = "inp_summ" class="price_formator"></span> руб
           </div>
         </div>
 
@@ -128,7 +128,7 @@ get_header(); ?>
             платеж
           </h6>
           <div class="calculator-form__column-total">
-            25 000 руб
+          <span id = "inp_em_pl" class="price_formator"></span> руб
           </div>
         </div>
 

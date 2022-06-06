@@ -174,6 +174,7 @@ function my_assets()
 	wp_enqueue_script('houses', get_template_directory_uri() . '/js/houses.js', array(), $scrypt_version, true); // Подключение основного скрипта в самом конце
 	wp_enqueue_script('gsap', get_template_directory_uri() . '/js/gsap/gsap.min.js', array(), $scrypt_version, true); // Подключение анимации при скроле
 	wp_enqueue_script('animation', get_template_directory_uri() . '/js/animation.js', array(), $scrypt_version, true); // Подключение анимации при скроле
+	wp_enqueue_script('ipoteka', get_template_directory_uri() . '/js/ipoteka_calc.js', array(), $scrypt_version, true); // Калькулятор ипотеки
 
 	wp_localize_script('main', 'allAjax', array(
 		'ajaxurl' => admin_url('admin-ajax.php'),

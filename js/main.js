@@ -274,6 +274,8 @@ function select_item(select) {
 		'<div hidden class="select__options">' + select_get_options(select_options) + '</div>' +
 		'</div></div>');
 
+
+
 	select_actions(select, select_parent);
 }
 function select_actions(original, select) {
@@ -316,6 +318,10 @@ function select_actions(original, select) {
 			}
 			_slideToggle(select_body_options, 100);
 			select.classList.toggle('_active');
+
+			// ИМИТАЦИЯ СОБЫТИЯ НАДО ДОПИЛИТЬ!!!!!
+			let event = new Event("ipt_calc_chenge", {bubbles: true}); // (2)
+			select.dispatchEvent(event);
 		}
 	}
 	for (let index = 0; index < select_options.length; index++) {
@@ -330,6 +336,7 @@ function select_actions(original, select) {
 				select_option.style.display = 'none';
 			}
 		}
+
 		select_option.addEventListener('click', function () {
 			for (let index = 0; index < select_options.length; index++) {
 				const el = select_options[index];
