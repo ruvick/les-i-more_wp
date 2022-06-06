@@ -4261,7 +4261,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .WrapperPage {
-  height: 950px;
+  /* height: 950px; */
+  height: 89vh;
+  overflow: hidden;
 }
 
 .WrapperPage__main {
