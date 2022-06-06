@@ -66,14 +66,16 @@ get_header(); ?>
             Стоимость <br>
             дома
           </h6>
-          <select name="form[]" class="form">
-            <option value="1" selected>3 840 000 - 70 кв черновая отделка</option>
-            <option value="2">5 340 000 - 70 кв отделка "Комфорт +"</option>
-            <option value="3">4 590 000 - 93 кв черновая отделка</option>
-            <option value="4">6 090 000 - 93 кв отделка "Комфорт +"</option>
-            <option value="5">6 490 000 - 131 кв черновая отделка</option>
-            <option value="5">8 490 000 - 131 кв отделка "Комфорт +"</option>
-          </select>
+          <div class="form__line">
+            <select name="form[]" class="calculator-form">
+              <option value="1" selected>3 840 000 - 70 кв черновая отделка</option>
+              <option value="2">5 340 000 - 70 кв отделка "Комфорт +"</option>
+              <option value="3">4 590 000 - 93 кв черновая отделка</option>
+              <option value="4">6 090 000 - 93 кв отделка "Комфорт +"</option>
+              <option value="5">6 490 000 - 131 кв черновая отделка</option>
+              <option value="5">8 490 000 - 131 кв отделка "Комфорт +"</option>
+            </select>
+          </div>
         </div>
 
         <div class="calculator-form__column">
@@ -81,14 +83,16 @@ get_header(); ?>
             Первоначальный <br>
             взнос
           </h6>
-          <select name="form[]" class="form">
-            <option value="1" selected>10%</option>
-            <option value="2">20%</option>
-            <option value="3">30%</option>
-            <option value="4">40%</option>
-            <option value="5">50%</option>
-            <option value="6">60%</option>
-          </select>
+          <div class="form__line">
+            <select name="form[]" class="calculator-form">
+              <option value="1" selected>10%</option>
+              <option value="2">20%</option>
+              <option value="3">30%</option>
+              <option value="4">40%</option>
+              <option value="5">50%</option>
+              <option value="6">60%</option>
+            </select>
+          </div>
         </div>
 
         <div class="calculator-form__column">
@@ -96,14 +100,16 @@ get_header(); ?>
             Срок <br>
             кредита
           </h6>
-          <select name="form[]" class="form">
-            <option value="1" selected>5 лет</option>
-            <option value="2">10 лет</option>
-            <option value="3">15 лет</option>
-            <option value="4">20 лет</option>
-            <option value="5">25 лет</option>
-            <option value="6">30 лет</option>
-          </select>
+          <div class="form__line">
+            <select name="form[]" class="calculator-form">
+              <option value="1" selected>5 лет</option>
+              <option value="2">10 лет</option>
+              <option value="3">15 лет</option>
+              <option value="4">20 лет</option>
+              <option value="5">25 лет</option>
+              <option value="6">30 лет</option>
+            </select>
+          </div>
         </div>
 
         <div class="calculator-form__column">

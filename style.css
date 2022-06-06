@@ -383,6 +383,7 @@ h5 {
   transition: all 0.3s ease 0s;
   width: 11px;
   height: 7px;
+  margin-left: 15px;
   background: url("img/icons/triangl-black.svg") center/100% no-repeat;
 }
 
@@ -5642,7 +5643,6 @@ table td {
   background-size: cover;
   background-position: center;
 }
-
 
 
 
