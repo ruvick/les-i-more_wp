@@ -472,8 +472,8 @@
 				<table>
  					<thead>
   					<tr>
-    					<th>№ дома</th>
-    					<th>Улица</th>
+    					<th>№</th>
+    					<th>Тип</th>
     					<th>Этажeй</th>
      					<th>Метраж, м2</th>
      					<th>Цена, р.</th>
@@ -485,8 +485,8 @@
               foreach ($allHouse as $h) {
             ?>
                 <tr>
-                  <td><? echo $h->home_number ?></td>
-                  <td><? echo $h->ulitsa ?></td>
+                  <td><? echo $h->element_id ?></td>
+                  <td><? echo $project[$h->type]["pname"] ?></td>
                   <td><? echo $project[$h->type]["Этажей"] ?></td>
                   <td><? echo $project[$h->type]["Общая площадь помещений"] ?></td>
                   <td><span class = "price_formator"><? echo $project[$h->type]["price"] ?></span></td>

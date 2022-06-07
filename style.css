@@ -6734,8 +6734,9 @@ table td {
     display: none;
   }
 
-  .selection-icon-block,
-  .svg_wrapper svg {
+  .selection-icon-block
+  /* .svg_wrapper svg  */
+  {
     display: none;
   }
 
