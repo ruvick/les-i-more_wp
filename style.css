@@ -5031,7 +5031,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .calculator-form__btn {
-  display: block;
+  display: flex;
+  max-width: 254px;
+  width: 100%;
   margin-left: auto;
   margin-top: 15px;
 }
