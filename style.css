@@ -6735,8 +6735,9 @@ table td {
   }
 
   .selection-icon-block
+
   /* .svg_wrapper svg  */
-  {
+    {
     display: none;
   }
 
@@ -6872,8 +6873,19 @@ table td {
     margin-bottom: 10px;
   }
 
-  .ecology__ImgBlock .ecology__ImgBlock-item:last-child {
-    display: none;
+  .ecology__ImgBlock {
+    flex-wrap: wrap;
+  }
+
+  .ecology__ImgBlock-item {
+    flex: 0 1 49%;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+
+  .ecology__ImgBlock-item:last-child {
+    flex: 0 1 100%;
+    margin-bottom: 0;
   }
 
   .location__navigation-imagesBlock-link {
