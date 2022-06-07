@@ -40,6 +40,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
             TermZipot.innerHTML = select_home_srok.value;
             SumZipot.innerHTML = inp_summ.innerHTML;
             PaymentZipot.innerHTML = inp_em_pl.innerHTML;
+
+            PriceZipot_input.innerHTML = select_home_price.value+"₽"
+            VznosZipot_input.innerHTML = select_home_vznos.value+"%"
+            TermZipot_input.innerHTML = select_home_srok.value+" лет"
+            SumZipot_input.innerHTML = inp_summ.innerHTML+"₽"
+            PaymentZipot_input.innerHTML = inp_em_pl.innerHTML+"₽"
         })
 
     calc_ipt()

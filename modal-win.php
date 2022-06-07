@@ -128,6 +128,11 @@
 							</div>
 
 							<div class="form__line">
+								<input type="hidden" id="PriceZipot_input" name = "price" data-valuem="Цена" value = "">
+								<input type="hidden" id="VznosZipot_input" name = "vznos" data-valuem="Взнос" value = "">
+								<input type="hidden" id="TermZipot_input" name = "srok" data-valuem="Срок" value = "">
+								<input type="hidden" id="SumZipot_input" name = "summ" data-valuem="Сумма" value = "">
+								<input type="hidden" id="PaymentZipot_input" name = "platezg" data-valuem="Сумма" value = "">
 								<input autocomplete="off" type="text" name="name" placeholder="Имя" data-error="Ошибка" data-value="Имя" class="popup__form-input input _req">
 								<input autocomplete="off" type="text" name="tel" placeholder="Телефон" data-error="Ошибка" data-value="Телефон" class="popup__form-input input _phone _req">
 							</div>
