@@ -133,7 +133,7 @@ get_header(); ?>
         </div>
 
       </div>
-      <a href="#zIpoteka" class="calculator-form__btn _popup-link btn">Оставить заявку</a>
+      <a id = "send_ipt_btn" href="#zIpoteka" class="calculator-form__btn _popup-link btn">Оставить заявку</a>
     <!-- </form> -->
   </div>
 </section>

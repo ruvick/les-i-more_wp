@@ -115,11 +115,11 @@
 					<div class="headen_form_blk">
 						<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
 
-						<p class="popup__application-fields">Цена: <span id="PriceZipot">100 000 р</span></p>
-						<p class="popup__application-fields">Взнос: <span id="VznosZipot">100 000 р</span></p>
-						<p class="popup__application-fields">Срок: <span id="TermZipot">100 000 р</span></p>
-						<p class="popup__application-fields">Сумма: <span id="SumZipot">100 000 р</span></p>
-						<p class="popup__application-fields">Платеж: <span id="PaymentZipot">100 000 р</span></p>
+						<p class="popup__application-fields">Цена: <span class="price_formator" id="PriceZipot">100 000</span>₽</p>
+						<p class="popup__application-fields">Взнос: <span id="VznosZipot">100 000 р</span>%</p>
+						<p class="popup__application-fields">Срок: <span id="TermZipot">100 000</span> лет</p>
+						<p class="popup__application-fields">Сумма: <span class="price_formator" id="SumZipot">100 000</span>₽</p>
+						<p class="popup__application-fields">Платеж: <span class="price_formator" id="PaymentZipot">100 000 р</span>₽</p>
 
 						<form action="#" class="popup__form-zIpoteka form universal_send_form">
 							

@@ -31,6 +31,17 @@ function calc_ipt() {
 }
 
 document.addEventListener('DOMContentLoaded', (e) => {
+
+    if (document.getElementById("send_ipt_btn"))  
+        send_ipt_btn.addEventListener("click", (e) => {
+            e.preventDefault()
+            PriceZipot.innerHTML = select_home_price.value;
+            VznosZipot.innerHTML = select_home_vznos.value;
+            TermZipot.innerHTML = select_home_srok.value;
+            SumZipot.innerHTML = inp_summ.innerHTML;
+            PaymentZipot.innerHTML = inp_em_pl.innerHTML;
+        })
+
     calc_ipt()
     let ipot_selectors = document.querySelectorAll(".ipt_select");
     
