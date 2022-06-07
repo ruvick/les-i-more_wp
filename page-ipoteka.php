@@ -58,7 +58,7 @@ get_header(); ?>
 
 <section class="calculator-wrap">
   <div class="_container">
-    <form action="#" class="calculator-form">
+    <!-- <form action="#" class="calculator-form"> -->
       <div class="calculator-form__line">
         <div class="calculator-form__column">
 
@@ -133,8 +133,8 @@ get_header(); ?>
         </div>
 
       </div>
-      <button class="calculator-form__btn btn">Оставить заявку</button>
-    </form>
+      <a href="#zIpoteka" class="calculator-form__btn _popup-link btn">Оставить заявку</a>
+    <!-- </form> -->
   </div>
 </section>
 

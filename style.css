@@ -5648,8 +5648,32 @@ table td {
   opacity: 0;
 }
 
+.popup__zIpoteka-item h2 {
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
 
+.popup__zIpoteka-item .popup__notific {
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
 
+.popup__zIpoteka-item .popup__policy {
+  font-size: 16px;
+}
+
+.popup__zIpoteka-item .popup__form-input {
+  margin-bottom: 15px;
+}
+
+.popup__application-fields {
+  margin-bottom: 15px;
+}
+
+.popup__form-zIpoteka {
+  margin-top: 30px;
+}
 
 
 

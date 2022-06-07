@@ -1,6 +1,8 @@
 <!-- В этом файле описываем все  всплывающие окна -->
 
 <!-- Popup-JS -->
+
+<!-- Окно Заказать звонок  -->
 <div class="popup popup_callback">
 	<div class="popup__content">
 		<div class="popup__body">
@@ -37,9 +39,9 @@
 	</div>
 </div>
 <!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
-<!-- Popup-JS End -->
+<!-- =================================================================================== -->
 
-<!-- Всплывающее окно -->
+<!-- Окно Коттедж -->
 <div class="popup popup-houses popup_houses">
 	<div class="popup-houses__content popup__content">
 		<div class="popup-houses__body popup__body">
@@ -94,8 +96,59 @@
 	</div>
 </div>
 <!-- <a href="#houses" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
-<!-- Popup-JS End -->
 <!-- ========================================================================================================================= -->
+
+<!-- Окно Заявка на ипотеку  -->
+<div class="popup popup_zIpoteka">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
+			<div class="popup__zIpoteka-item popup__item d-flex">
+				<div class="popup__img">
+					<picture>
+						<source srcset="<?php echo get_template_directory_uri(); ?>/img/popup.webp" type="image/webp"><img src="<?php echo get_template_directory_uri(); ?>/img/popup.jpg?_v=1632757662937" alt="">
+					</picture>
+				</div>
+				<div class="popup__form-block">  
+					<h2>Заявка на ипотеку</h2> 
+					
+					<div class="headen_form_blk">
+						<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
+
+						<p class="popup__application-fields">Цена: <span id="PriceZipot">100 000 р</span></p>
+						<p class="popup__application-fields">Взнос: <span id="VznosZipot">100 000 р</span></p>
+						<p class="popup__application-fields">Срок: <span id="TermZipot">100 000 р</span></p>
+						<p class="popup__application-fields">Сумма: <span id="SumZipot">100 000 р</span></p>
+						<p class="popup__application-fields">Платеж: <span id="PaymentZipot">100 000 р</span></p>
+
+						<form action="#" class="popup__form-zIpoteka form universal_send_form">
+							
+							<div class="SendetMsg form_msg" style="display:none;">
+								Ваше сообщение успешно отправлено.
+							</div>
+
+							<div class="form__line">
+								<input autocomplete="off" type="text" name="name" placeholder="Имя" data-error="Ошибка" data-value="Имя" class="popup__form-input input _req">
+								<input autocomplete="off" type="text" name="tel" placeholder="Телефон" data-error="Ошибка" data-value="Телефон" class="popup__form-input input _phone _req">
+							</div>
+							<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
+									конфиденциальности</a></p>
+							<button type = "button" class="popup__form-btn form__btn btn u_send">Оставить заявку</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- <a href="#zIpoteka" class="header__popup-link _popup-link">Заявка на ипотеку</a> -->
+<!-- =================================================================================== -->
+
+
+
+
+
+
 <div style="display: none;">
 	<div class="box-modal" id="messgeModal">
 		<div class="box-modal_close arcticmodal-close"><? _e("закрыть", "rubex"); ?></div>
