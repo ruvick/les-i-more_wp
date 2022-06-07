@@ -5677,7 +5677,13 @@ table td {
   margin-top: 30px;
 }
 
+.calculator-form__column {
+  margin-right: 15px;
+}
 
+.calculator-form__column:last-child {
+  margin-right: 0;
+}
 
 
 
@@ -5974,6 +5980,23 @@ table td {
 
   .developer__descp {
     flex: 0 0 30%;
+  }
+
+  .calculator-form__line {
+    flex-wrap: wrap;
+  }
+
+  .calculator-form__column {
+    margin-bottom: 30px;
+  }
+
+  .calculator-form__title {
+    margin-bottom: 15px;
+  }
+
+  .calculator-form__btn {
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 
@@ -6428,6 +6451,10 @@ table td {
   .developer__img {
     margin-right: 0;
   }
+
+  .calculator-form__title br {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -6709,6 +6736,11 @@ table td {
   .header__logo-les {
     margin-top: 0;
   }
+
+  .calculator-form__column {
+    flex: 0 1 48%;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 700px) {
@@ -6839,6 +6871,15 @@ table td {
   .ecology__info-block-item-icon {
     margin-right: auto;
     margin-bottom: 20px;
+  }
+
+  .calculator-form__column {
+    flex: 0 1 100%;
+    margin-bottom: 30px;
+  }
+
+  .calculator-form__title {
+    margin-bottom: 10px;
   }
 }
 
@@ -7119,6 +7160,10 @@ table td {
   .podbor-table-mob .popup-podbor__table-btn {
     font-size: 10px;
     padding: 5px 3px;
+  }
+
+  .calculator-form__btn {
+    max-width: 100%;
   }
 }
 
