@@ -129,7 +129,7 @@
 					планировочных
 					решений
 				</h3>
-				<a href="choose-house.html" class="location__advantagesBlock-choice-link btn element-animation anim_preim">Выбрать дом</a>
+				<a href="<?php echo get_permalink(14);?>" class="location__advantagesBlock-choice-link btn element-animation anim_preim">Выбрать дом</a> 
 			</div>
 
 			<div class="location__advantagesBlock-descp">
