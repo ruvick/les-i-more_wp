@@ -40,7 +40,7 @@ function newsendr()
 
 	if (check_ajax_referer('NEHERTUTLAZIT', 'nonce', false)) {
        
-		$send_adr = carbon_get_theme_option('as_email_send');
+		$send_adr = carbon_get_theme_option('as_email_send'); 
 	
 		
 
@@ -56,7 +56,7 @@ function newsendr()
 		message_to_telegram($content_tg);
 
 		$headers = array(
-			'From: Сайт Лес и	Море <noreply@mirturizma46.ru>',
+			'From: Сайт Лес и	Море <noreply@ultrakresla.ru>', 
 			'content-type: text/html',
 		);
 

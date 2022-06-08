@@ -320,7 +320,7 @@ function select_actions(original, select) {
 			select.classList.toggle('_active');
 
 			// ИМИТАЦИЯ СОБЫТИЯ НАДО ДОПИЛИТЬ!!!!!
-			let event = new Event("ipt_calc_chenge", {bubbles: true}); // (2)
+			let event = new Event("ipt_calc_chenge", { bubbles: true }); // (2)
 			select.dispatchEvent(event);
 		}
 	}
