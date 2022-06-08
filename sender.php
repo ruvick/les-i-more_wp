@@ -53,7 +53,7 @@ function newsendr()
 			$content_tg .= $_REQUEST["fildval"][$i].": ".$_REQUEST[$_REQUEST["fildname"][$i]]."\n\r";
 		}
 
-		message_to_telegram($content_tg);
+		//message_to_telegram($content_tg);
 
 		$headers = array(
 			'From: Сайт Лес и	Море <noreply@ultrakresla.ru>', 

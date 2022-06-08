@@ -138,9 +138,9 @@
 								<input type="hidden" id="VznosZipot_input" name = "vznos" data-valuem="Взнос" value = "">
 								<input type="hidden" id="TermZipot_input" name = "srok" data-valuem="Срок" value = "">
 								<input type="hidden" id="SumZipot_input" name = "summ" data-valuem="Сумма" value = "">
-								<input type="hidden" id="PaymentZipot_input" name = "platezg" data-valuem="Сумма" value = "">
-								<input required type="text" name="namez" placeholder="Имя" data-valuem="Имя" class="popup__form-input input">
-								<input required type="text" name="telz" placeholder="Телефон" data-valuem="Телефон" class="popup__form-input input _phone">
+								<input type="hidden" id="PaymentZipot_input" name = "platezg" data-valuem="Взнос" value = "">
+								<input required type="text" name="namez" placeholder="Имя*" data-valuem="Имя" class="popup__form-input input">
+								<input required type="text" name="telz" placeholder="Телефон*" data-valuem="Телефон" class="popup__form-input input _phone">
 							
 							<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
 									конфиденциальности</a></p>

@@ -41,11 +41,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
             SumZipot.innerHTML = inp_summ.innerHTML;
             PaymentZipot.innerHTML = inp_em_pl.innerHTML;
 
-            PriceZipot_input.innerHTML = select_home_price.value+"₽"
-            VznosZipot_input.innerHTML = select_home_vznos.value+"%"
-            TermZipot_input.innerHTML = select_home_srok.value+" лет"
-            SumZipot_input.innerHTML = inp_summ.innerHTML+"₽"
-            PaymentZipot_input.innerHTML = inp_em_pl.innerHTML+"₽"
+            PriceZipot_input.value = select_home_price.value+"₽"
+            VznosZipot_input.value = select_home_vznos.value+"%"
+            TermZipot_input.value = select_home_srok.value+" лет"
+            SumZipot_input.value = inp_summ.innerHTML+"₽"
+            PaymentZipot_input.value = inp_em_pl.innerHTML+"₽"
         })
 
     calc_ipt()
