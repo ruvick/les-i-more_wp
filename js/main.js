@@ -47,6 +47,10 @@ function generatePDF() {
 {/* <a href="#" class="card-wrap-properties-links-link" onclick="generatePDF();">Скачать страницу в PDF</p></a> */ }
 // ----------------------------------------------------------------------------------------------------------------------------------------
 
+// Маска телефона
+var inputmask_phone = { "mask": "+9(999)999-99-99" };
+jQuery("input[type=tel]").inputmask(inputmask_phone);
+
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
 let forms = document.querySelectorAll('form');
 if (forms.length > 0) {
@@ -2426,6 +2430,17 @@ function scroll_animate(event) {
 
 $ = jQuery;
 
+// $(document).ready(function () {
+
+
+
+// // Маска телефона
+// var inputmask_phone = { "mask": "+9(999)999-99-99" };
+// jQuery("input[type=tel]").inputmask(inputmask_phone);
+
+
+
+// });
 // Файлы jQuery---------------------------------------------------------------------------------------------------------------
 
 
