@@ -460,7 +460,7 @@ textarea:focus {
 }
 
 .input._focus {
-  background: grey;
+  border: 1px solid grey;
 }
 
 .input._error {

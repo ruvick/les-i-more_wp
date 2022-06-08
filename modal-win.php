@@ -26,9 +26,9 @@
 
 							<div class="form__line">
 								<input type="hidden" name = "form_name" data-valuem = "Название формы" value = "Заказать звонок">
-								<input type="hidden" name = "form_address" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://forestsea.ru/podobrat-kottedzh":get_the_permalink()?>">
-								<input required  type="text" name="name" data-valuem = "Имя" placeholder="Имя" class="popup__form-input input">
-								<input required  type="text" name="tel" data-valuem = "Телефон" placeholder="Телефон" class="popup__form-input input _phone">
+								<input type="hidden" name = "form_address" data-valuem = "Адрес страницы" value = "<? echo (is_home())?"https://forestsea.ru/kontakty":get_the_permalink()?>">
+								<input required type="text" name="name" data-valuem = "Имя" placeholder="Имя" class="popup__form-input input">
+								<input required type="text" name="tel" data-valuem = "Телефон" placeholder="Телефон" class="popup__form-input input _phone"> 
 							</div>
 							<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
 									конфиденциальности</a></p>
@@ -139,8 +139,8 @@
 								<input type="hidden" id="TermZipot_input" name = "srok" data-valuem="Срок" value = "">
 								<input type="hidden" id="SumZipot_input" name = "summ" data-valuem="Сумма" value = "">
 								<input type="hidden" id="PaymentZipot_input" name = "platezg" data-valuem="Взнос" value = "">
-								<input required type="text" name="namez" placeholder="Имя*" data-valuem="Имя" class="popup__form-input input">
-								<input required type="text" name="telz" placeholder="Телефон*" data-valuem="Телефон" class="popup__form-input input _phone">
+								<input required type="text" name="name" placeholder="Имя*" data-valuem="Имя" class="popup__form-input input">
+								<input required type="text" name="tel" placeholder="Телефон*" data-valuem="Телефон" class="popup__form-input input _phone">
 							
 							<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
 									конфиденциальности</a></p>
