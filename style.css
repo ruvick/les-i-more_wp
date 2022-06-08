@@ -5612,6 +5612,8 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><fi
   height: 37px;
   margin-left: auto;
   display: block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .location__descp-text-block-mob {
@@ -6329,8 +6331,10 @@ table td {
   }
 
   .header__logo-les-text {
-    display: none;
+    bottom: 6px;
+    left: 40px;
   }
+
 }
 
 @media (max-width: 912px) {
@@ -6668,9 +6672,9 @@ table td {
     padding: 70px 0px 65px 0px;
   }
 
-  .page-recurring__img:nth-child(2) {
+  /* .page-recurring__img:nth-child(2) {
     display: none;
-  }
+  } */
 
   .page-recurring__column {
     margin-bottom: 0;
@@ -6883,6 +6887,18 @@ table td {
     margin-bottom: 10px;
   }
 
+  .ecology__ImgBlock .mobil_img_format {
+    height:150px
+  }
+
+  .ecology__info-card-img_mobile img{
+    width:100%
+  }
+
+  .ecology__info-card-img_mobile {
+    min-height: 300px;
+  }
+
   .ecology__ImgBlock-item:last-child {
     flex: 0 1 100%;
     margin-bottom: 0;
@@ -7049,6 +7065,15 @@ table td {
 
   .podbor-table-mob table tr {
     font-size: 12px;
+  }
+
+  .first-screen {
+    height: 57vh;
+    min-height: 57vh
+  }
+
+  .scroll-icon-block {
+    display: none;
   }
 }
 

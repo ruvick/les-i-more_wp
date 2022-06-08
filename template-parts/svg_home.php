@@ -52,7 +52,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/h_70.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_70.pdf",
       "pname" => "Дом 70 м²",
-      "price" => 3840000
+      "price" => 3940000
     ],
 
     "Таунхаус" => [
@@ -439,7 +439,7 @@
       data-hild = "<? echo $h->element_id?>"  
       data-price = "<? echo $h->price?>"  
       id="home_wrapper_<? echo $h->element_id?>"  
-      transform="<? echo $relation["h_".$h->element_id]?>" fill="rgba(114,235,109,0.36)" stroke="#707070" stroke-width="1">
+      transform="<? echo $relation["h_".$h->element_id]?>" fill="<? if (!empty($h->status)) echo 'rgba(220,20,60,0.36)'; else echo 'rgba(114,235,109,0.36)'?>" stroke="#707070" stroke-width="1">
         <? echo $size["h_".$h->element_id]?>
       </g>
     <?
@@ -490,7 +490,12 @@
                   <td><? echo $project[$h->type]["Этажей"] ?></td>
                   <td><? echo $project[$h->type]["Общая площадь помещений"] ?></td>
                   <td><span class = "price_formator"><? echo $project[$h->type]["price"] ?></span></td>
-                  <td><a onclick = "popup_open('callback'); return false;" href="#callback" class="popup-podbor__table-btn btn _popup-link">Купить</a></td>
+                  <td><a 
+                        data-postr = "<? echo $h->type?>"  
+                        data-hnumber = "<? echo $h->home_number?>"  
+                        data-hild = "<? echo $h->element_id?>"  
+                        data-price = "<? echo $h->price?>" 
+                  onclick = "show_table (this); return false;" href="#callback" class="popup-podbor__table-btn btn _popup-link">Подробнее</a></td>
                 </tr>
             <?
               }

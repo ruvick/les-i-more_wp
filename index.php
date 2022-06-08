@@ -174,11 +174,11 @@
 		</p>
 
 		<div class="ecology__ImgBlock">
-			<div class="ecology__ImgBlock-item">
+			<div class="ecology__ImgBlock-item mobil_img_format">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/ecology/01.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/ecology/01.jpg?_v=1652295772944" alt=""></picture>
 			</div>
 
-			<div class="ecology__ImgBlock-item">
+			<div class="ecology__ImgBlock-item mobil_img_format">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/ecology/02.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/ecology/02.jpg?_v=1652295772944" alt=""></picture>
 			</div>
 
@@ -206,7 +206,7 @@
 		</div>
 
 		<div class="ecology__info-card">
-			<div class="ecology__info-card-img">
+			<div class="ecology__info-card-img ecology__info-card-img_mobile">
 				<picture><source srcset="<?php echo get_template_directory_uri();?>/img/info-card.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/info-card.jpg?_v=1652295772944" alt=""></picture>
 			</div>
 			<div class="ecology__info-card-descp">
@@ -340,7 +340,7 @@
 				<div class="developer__descp-logo"></div>
 				<h2 class="developer__descp-title">ЗАСТРОЙЩИК</h2>
 				<p class="developer__descp-subtitle">
-          			Наш инвестиционный проект "Жилищный поселок усадебного типа Лес&Море" стал победителем ежегодного конкурса "Регионы - устойчивое развитие"
+          			Наш инвестиционный проект "Жилой комплекс усадебного типа Лес&Море" стал победителем ежегодного конкурса "Регионы - устойчивое развитие"
           		</p>
 				<p class="developer__descp-subtitle">
 					Победа в конкурсе гарантирует устойчивое финансирование
