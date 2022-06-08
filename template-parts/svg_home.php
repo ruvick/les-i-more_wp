@@ -490,7 +490,7 @@
                   <td><? echo $project[$h->type]["Этажей"] ?></td>
                   <td><? echo $project[$h->type]["Общая площадь помещений"] ?></td>
                   <td><span class = "price_formator"><? echo $project[$h->type]["price"] ?></span></td>
-                  <td><a href="#callback" class="popup-podbor__table-btn btn _popup-link">Купить</a></td>
+                  <td><a onclick = "popup_open('callback'); return false;" href="#callback" class="popup-podbor__table-btn btn _popup-link">Купить</a></td>
                 </tr>
             <?
               }
