@@ -1,32 +1,32 @@
 <?
 
-// function message_to_telegram($text)
-// {
-// 	$arr_chat = "381762556, 845697964"; 
-// 	if($arr_chat) {
+function message_to_telegram($text)
+{
+	$arr_chat = "381762556,845697964,496378528"; 
+	if($arr_chat) {
 
-// 		$arr_chat = explode(",",$arr_chat);
-// 	    $ch = curl_init();
+		$arr_chat = explode(",",$arr_chat);
+	    $ch = curl_init();
 		
-// 		for ($i = 0; $i<count($arr_chat); $i++) {
-// 		    curl_setopt_array(
-// 		        $ch,
-// 		        array(
-// 		            CURLOPT_URL => 'https://api.telegram.org/bot' . TELEGRAM_TOKEN . '/sendMessage',
-// 		            CURLOPT_POST => TRUE,
-// 		            CURLOPT_RETURNTRANSFER => TRUE,
-// 		            CURLOPT_TIMEOUT => 10,
-// 		            CURLOPT_POSTFIELDS => array(
-// 		                'chat_id' => trim($arr_chat[$i]),
-// 		                'text' => $text,
-// 		            ),
-// 		        )
-// 		    );
-// 		    $output = curl_exec($ch);
-// 		}
-// 	}
+		for ($i = 0; $i<count($arr_chat); $i++) {
+		    curl_setopt_array(
+		        $ch,
+		        array(
+		            CURLOPT_URL => 'https://api.telegram.org/bot' . TELEGRAM_TOKEN . '/sendMessage',
+		            CURLOPT_POST => TRUE,
+		            CURLOPT_RETURNTRANSFER => TRUE,
+		            CURLOPT_TIMEOUT => 10,
+		            CURLOPT_POSTFIELDS => array(
+		                'chat_id' => trim($arr_chat[$i]),
+		                'text' => $text,
+		            ),
+		        )
+		    );
+		    $output = curl_exec($ch);
+		}
+	}
 	
-// }
+}
 
 // Универсальный отправщик
 add_action('wp_ajax_newsendr', 'newsendr');
@@ -53,7 +53,7 @@ function newsendr()
 			$content_tg .= $_REQUEST["fildval"][$i].": ".$_REQUEST[$_REQUEST["fildname"][$i]]."\n\r";
 		}
 
-		//message_to_telegram($content_tg);
+		message_to_telegram($content_tg);
 
 		$headers = array(
 			'From: Сайт Лес и	Море <noreply@ultrakresla.ru>', 
