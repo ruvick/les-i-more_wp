@@ -59,6 +59,11 @@
 		</ul>
 		<h5 class="sidebar-menu__navigation-title">Инфраструктура</h5>
 		<ul class="sidebar-menu__navigation-list">
+			<li class="sidebar-menu__navigation-list-item">	
+				<a href="<?php echo get_permalink(14);?>" class="sidebar-menu__navigation-list-item-link">
+					Выбрать дом
+				</a>
+			</li>
 			<li class="sidebar-menu__navigation-list-item">
 				<a href="<?php echo get_permalink(5);?>" class="sidebar-menu__navigation-list-item-link">
 					Объекты рядом

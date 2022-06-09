@@ -26,8 +26,12 @@
   <div class="contacts__menu-column">
     <h6 class="contacts__menu-title">Инфраструктура</h6>
     <ul class="contacts__menu-list">
-      <li class="contacts__menu-list-item">
-        <a href="<?php echo get_permalink(8);?>" class="contacts__menu-list-item-link">Условия покупки</a>
+      <li class="contacts__menu-list-item">  
+        <a href="<?php echo get_permalink(14);?>" class="contacts__menu-list-item-link">Выбрать дом</a>
+      </li>
+
+      <li class="contacts__menu-list-item">   
+        <a href="<?php echo get_permalink(5);?>" class="contacts__menu-list-item-link">Объекты рядом</a>
       </li>
     </ul>
   </div>
@@ -53,6 +57,9 @@
         <a href="tel:+74712543488" class="contacts__menu-list-item-link">+7 (4712) 54-34-88</a>
       </li>
       <li class="contacts__menu-list-item">
+        <a href="<?php echo get_permalink(12);?>" class="contacts__menu-list-item-link">г. Кцрск, ул. 50 лет Октября, д. 100</a>
+      </li>
+      <li class="contacts__menu-list-item">
         <a href="mailto:pyatnitsky46@gmail.com" class="contacts__menu-list-item-link">pyatnitsky46@gmail.com</a>
       </li>
     </ul>
@@ -63,7 +70,10 @@
 <div class="contacts__block-img">
   <a href="tel:+74712543488" class="contacts__block-img-phone">+7 (4712) 54-34-88</a>
   <a href="<?php echo get_permalink(12);?>" class="contacts__block-img-card d-flex">
-    <div class="contacts__block-img-card-text">Наш офис</div>
+    <div class="contacts__block-img-card-text">
+      Наш офис<br/>
+      <span>г. Кцрск, ул. 50 лет Октября, д. 100</span>
+    </div>
     <div class="contacts__block-img-card-images">
       <picture><source srcset="<?php echo get_template_directory_uri();?>/img/contacts-img-1.webp" type="image/webp"><img src="<?php echo get_template_directory_uri();?>/img/contacts-img-1.jpg?_v=1652295772944" alt=""></picture>
     </div>

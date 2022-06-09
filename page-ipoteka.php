@@ -74,8 +74,8 @@ get_header(); ?>
               <option value="6090000">6 090 000 - 93 м² отделка "Комфорт +"</option>
               <option value="6490000">6 490 000 - 131 м² черновая отделка</option>
               <option value="8490000">8 490 000 - 131 м² отделка "Комфорт +"</option>
-              <option value="6890000">6 890 000 - 136 м² отделка "Комфорт +"</option>
-              <option value="8890000">8 890 000 - 136 м² черновая отделка</option>
+              <option value="6890000">6 890 000 - 136 м² черновая отделка</option>
+              <option value="8890000">8 890 000 - 136 м² отделка "Комфорт +"</option>
             </select>
           </div>
         </div>
@@ -104,12 +104,12 @@ get_header(); ?>
           </h6>
           <div class="form__line">
             <select id = "select_home_srok" name="form[]" class="calculator-form ipt_select">
-              <option value="5" selected>5 лет</option>
-              <option value="10">10 лет</option>
-              <option value="15">15 лет</option>
-              <option value="20">20 лет</option>
+              <option value="30" selected>30 лет</option>  
               <option value="25">25 лет</option>
-              <option value="30">30 лет</option>
+              <option value="20">20 лет</option>
+              <option value="15">15 лет</option>
+              <option value="10">10 лет</option>
+              <option value="5">5 лет</option>
             </select>
           </div>
         </div>

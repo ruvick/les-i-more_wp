@@ -3511,7 +3511,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .sidebar-menu__navigation-title {
   font-size: 32px;
   line-height: 38.4px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .sidebar-menu__navigation-title:last-child {
@@ -3529,7 +3529,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .sidebar-menu__navigation-list-item {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .sidebar-menu__navigation-list-item:last-child {
@@ -4119,6 +4119,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-weight: 700;
   text-align: center;
   background: #fff;
+  flex-direction: column;
+}
+
+.contacts__block-img-card-text span{
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 8px;
 }
 
 .contacts__block-img-card-images {
@@ -7028,7 +7035,7 @@ table td {
   }
 
   .sidebar-menu__navigation {
-    padding: 30px 30px 30px 30px;
+    padding: 20px 30px 20px 30px;
   }
 
   .sidebar-menu__navigation {
