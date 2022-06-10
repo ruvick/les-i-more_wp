@@ -4750,7 +4750,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .ecology__info-block-item-icon_01 {
-  background: #005FAB;
+  background: #27455e;
 }
 
 .ecology__info-block-item-icon_01:before {
@@ -7116,10 +7116,12 @@ table td {
 
   .popup-podbor__inner table th {
     padding: 5px 0;
+    text-align: center;
   }
 
   .popup-podbor__inner table td {
     padding: 5px 0;
+    text-align: center;
   }
 
   /* .popup-podbor__inner {

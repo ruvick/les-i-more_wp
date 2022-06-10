@@ -191,7 +191,7 @@
 			<div class="ecology__info-block-item element-animation anim_preim">
 				<div class="ecology__info-block-item-icon ecology__info-block-item-icon_01"></div>
 				<div class="ecology__info-block-item-text">
-					Так же для обеспечения жильцов водой используется центральный водопровод
+					Также для обеспечения жильцов водой используется центральный водопровод
 					с водой из артезианской скважины.
 				</div>
 			</div>
