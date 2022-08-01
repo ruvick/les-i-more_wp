@@ -68,14 +68,14 @@ get_header(); ?>
           </h6>
           <div class="form__line">
             <select name="form[]" id = "select_home_price" class="calculator-form ipt_select">
-              <option value="4040000" selected>4 040 000 - 70 м² черновая отделка</option>
-              <option value="5540000">5 540 000 - 70 м² отделка "Комфорт +"</option>
-              <option value="4790000">4 790 000 - 93 м² черновая отделка</option>
-              <option value="6290000">6 290 000 - 93 м² отделка "Комфорт +"</option>
-              <option value="6690000">6 690 000 - 131 м² черновая отделка</option>
-              <option value="8590000">8 590 000 - 131 м² отделка "Комфорт +"</option>
-              <option value="7100000">7 100 000 - 136 м² черновая отделка</option>
-              <option value="9000000">9 000 000 - 136 м² отделка "Комфорт +"</option>
+              <option value="4865000" selected>4 865 000 - 70 м² черновая отделка</option>
+              <option value="6365000">6 365 000 - 70 м² отделка "Комфорт +"</option>
+              <option value="5542000">5 542 000 - 93 м² черновая отделка</option>
+              <option value="7042000">6 290 000 - 93 м² отделка "Комфорт +"</option>
+              <option value="7808000">7 808 000 - 131 м² черновая отделка</option>
+              <option value="8590000">9 808 000 - 131 м² отделка "Комфорт +"</option>
+              <option value="8106000">8 106 000 - 136 м² черновая отделка</option>
+              <option value="9000000">10 106 000 - 136 м² отделка "Комфорт +"</option>
             </select>
           </div>
         </div>
