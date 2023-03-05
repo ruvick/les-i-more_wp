@@ -80,7 +80,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/dup.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_dup.pdf",
       "pname" => "Дуплекс",
-      "price" => 7640000
+      "price" => 8890000
     ],
     "Усадьба" => [
       "Площадь" => "278,4 м²",
