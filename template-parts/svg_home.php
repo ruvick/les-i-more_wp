@@ -10,7 +10,7 @@
       "Земельный участок" => "10 соток",
       "img" => get_template_directory_uri()."/img/houses_type/kt1.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_136.pdf",
-      "pname" => "Дом 136 м²",
+      "pname" => "Дом 143 м²",
       "price" => 10010000
     ],
     "Дом 131" => [
@@ -23,7 +23,7 @@
       "Земельный участок" => "10 соток",
       "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_131.pdf",
-      "pname" => "Дом 131 м²",
+      "pname" => "Дом 136 м²",
       "price" => 9520000
     ],
 
@@ -37,7 +37,7 @@
       "Земельный участок" => "10 соток",
       "img" => get_template_directory_uri()."/img/houses_type/h_93.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_93.pdf",
-      "pname" => "Дом 93 м²",
+      "pname" => "Дом 102 м²",
       "price" => 7140000
     ],
 
@@ -51,7 +51,7 @@
       "Земельный участок" => "10 соток",
       "img" => get_template_directory_uri()."/img/houses_type/h_70.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_70.pdf",
-      "pname" => "Дом 70 м²",
+      "pname" => "Дом 76 м²",
       "price" => 5320000
     ],
 
