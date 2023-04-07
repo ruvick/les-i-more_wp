@@ -38,7 +38,7 @@ _tmr.push({id: "3253608", type: "pageView", start: (new Date()).getTime()});
 <!-- //Rating Mail.ru counter -->
 
 <body>
-  <script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
+  <!-- <script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script> -->
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
