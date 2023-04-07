@@ -52,7 +52,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/h_70.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_70.pdf",
       "pname" => "Дом 76 м²",
-      "price" => 5320000
+      "price" => 5548000
     ],
 
     "Таунхаус" => [
