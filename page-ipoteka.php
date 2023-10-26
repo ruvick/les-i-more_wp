@@ -68,13 +68,13 @@ get_header(); ?>
           </h6>
           <div class="form__line">
             <select name="form[]" id = "select_home_price" class="calculator-form ipt_select">
-            <option value="5320000" selected>5 548 000 - 76 м² отделка white box</option>
+            <option value="5900000" selected>5 900 000 - 76 м² отделка white box</option>
               <!-- <option value="6450000">6 450 000 - 70 м² отделка "Комфорт +</option> -->
-              <option value="7140000">7 140 000 - 93 м² отделка white box</option>
+              <option value="7500000">7 500 000 - 102 м² отделка white box</option>
               <!-- <option value="7242000">7 242 000 - 93 м² отделка "Комфорт +</option> -->
-              <option value="9520000">9 520 000 - 131 м² отделка white box</option>
+              <option value="10740000">10 740 000 - 136 м² отделка white box</option>
               <!-- <option value="9908000">9 908 000 - 131 м² отделка "Комфорт +</option> -->
-              <option value="10010000">10 019 000 - 136 м² отделка white box</option>
+              <option value="11460000">11 460 000 - 144 м² отделка white box</option>
               <!-- <option value="10206000">10 206 000 - 136 м² отделка "Комфорт +</option> -->
             </select>
           </div>

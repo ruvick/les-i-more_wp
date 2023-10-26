@@ -11,7 +11,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/kt1.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_136.pdf",
       "pname" => "Дом 143 м²",
-      "price" => 10010000
+      "price" => 11460000
     ],
     "Дом 131" => [
       "Этажей" => 1,
@@ -24,7 +24,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/kt2.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_131.pdf",
       "pname" => "Дом 136 м²",
-      "price" => 9520000
+      "price" => 10740000
     ],
 
     "Дом 93" => [
@@ -38,7 +38,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/h_93.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_93.pdf",
       "pname" => "Дом 102 м²",
-      "price" => 7140000
+      "price" => 7500000
     ],
 
     "Дом 70" => [
@@ -52,7 +52,7 @@
       "img" => get_template_directory_uri()."/img/houses_type/h_70.jpg",
       "pasport" => get_template_directory_uri()."/img/houses_type/pa_house_70.pdf",
       "pname" => "Дом 76 м²",
-      "price" => 5548000
+      "price" => 5900000
     ],
 
     "Таунхаус" => [
